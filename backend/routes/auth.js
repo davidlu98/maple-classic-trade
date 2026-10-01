@@ -84,7 +84,7 @@ router.get("/discord/callback", async (req, res) => {
       },
     );
 
-    res.redirect(`http://localhost:5173/auth-success?token=${token}`);
+    res.redirect(`${process.env.FRONTEND_URL}/auth-success?token=${token}`);
   } catch (error) {
     console.error(error.response?.data || error.message);
 
