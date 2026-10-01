@@ -7,6 +7,7 @@ const {
 } = require("../utils/trading");
 const {
   isPositiveInteger,
+  isPositiveIntegerBelow,
   isNonNegativeInteger,
 } = require("../utils/validation");
 const HttpError = require("../utils/HttpError");
@@ -121,9 +122,9 @@ router.post("/", authMiddleware, async (req, res, next) => {
           });
         }
 
-        if (!isPositiveInteger(stat.value)) {
+        if (!isPositiveIntegerBelow(stat.value, 1000)) {
           return res.status(400).json({
-            error: "Stat values must be at least 1",
+            error: "Stat values must be between 1 and 999",
           });
         }
       }
@@ -177,7 +178,7 @@ router.post("/", authMiddleware, async (req, res, next) => {
         });
       }
 
-      if (quantity > 9999) {
+      if (!isPositiveIntegerBelow(quantity, 10000)) {
         return res.status(400).json({
           error: "Quantity must be less than 9999",
         });
@@ -312,9 +313,9 @@ router.patch("/:id", authMiddleware, async (req, res, next) => {
           });
         }
 
-        if (!isPositiveInteger(stat.value)) {
+        if (!isPositiveIntegerBelow(stat.value, 1000)) {
           return res.status(400).json({
-            error: "Stat values must be at least 1",
+            error: "Stat values must be between 1 and 999",
           });
         }
       }
@@ -378,7 +379,7 @@ router.patch("/:id", authMiddleware, async (req, res, next) => {
         });
       }
 
-      if (quantity > 9999) {
+      if (!isPositiveIntegerBelow(quantity, 10000)) {
         return res.status(400).json({
           error: "Quantity must be less than 9999",
         });

@@ -7,6 +7,7 @@ import ListingRequirements from "./ListingRequirements";
 import listingConfigs from "./utils/listingConfigs";
 import {
   isPositiveNumberInput,
+  isPositiveNumberBelow,
   isNonNegativeNumberInput,
 } from "./utils/validation";
 
@@ -65,7 +66,7 @@ export default function EditListing() {
         return;
       }
 
-      if (Number(requirements.quantity > 9999)) {
+      if (!isPositiveNumberBelow(requirements.quantity, 10000)) {
         setErrorMessage("Quantity must be less than 9999");
         return;
       }
@@ -87,11 +88,11 @@ export default function EditListing() {
 
     if (listingConfig.requiresStats) {
       const hasInvalidStats = requirements.stats.some(
-        (stat) => !isPositiveNumberInput(stat.value),
+        (stat) => !isPositiveNumberBelow(stat.value, 1000),
       );
 
       if (hasInvalidStats) {
-        setErrorMessage("All stat values are required and must be at least 1");
+        setErrorMessage("All stat values are required to be between 1 and 999");
         return;
       }
     }
