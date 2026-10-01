@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 const mapleLeafIcon = "/maple-leaf.png";
 
+const API_URL = import.meta.env.VITE_BACKEND_URL;
+
 export default function Navbar({ user, logout }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -43,7 +45,7 @@ export default function Navbar({ user, logout }) {
           {!user ? (
             <Button
               component="a"
-              href="http://localhost:3000/auth/discord"
+              href={`${API_URL}/auth/discord`}
               color="inherit"
               sx={{ bgcolor: "custom.discord" }}
             >
