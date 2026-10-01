@@ -1,7 +1,4 @@
 import { useState } from "react";
-import { Box, Button } from "@mui/material";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 import SearchByTerm from "./SearchByTerm";
 import TypeFilters from "./TypeFilters";
@@ -9,6 +6,10 @@ import RequirementFilters from "./RequirementFilters";
 import EquipmentFilters from "./EquipmentFilters";
 import TradeFilters from "./TradeFilters";
 import StatFilters from "./StatFilters";
+
+import { Box, Button } from "@mui/material";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 export default function SearchFilters({
   filters,
@@ -108,7 +109,7 @@ export default function SearchFilters({
           <Button
             variant="contained"
             onClick={handleToggleFilters}
-            sx={{ bgcolor: "custom.blue", height: 34 }}
+            sx={{ bgcolor: "custom.blue", height: 34, px: 1 }}
           >
             {filtersVisible ? (
               <>

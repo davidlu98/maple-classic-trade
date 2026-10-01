@@ -7,6 +7,8 @@ import ListingContainer from "./ListingContainer";
 import { statData } from "./utils/statData";
 
 import { Box, Button, Typography } from "@mui/material";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 const API_URL = import.meta.env.VITE_BACKEND_URL;
 
@@ -349,18 +351,18 @@ export default function ListingSearch({ allItems }) {
             onClick={() => {
               handleSort("lowest");
             }}
-            sx={{ bgcolor: "custom.blue", height: 34 }}
+            sx={{ bgcolor: "#C74D00", height: 34, px: 1 }}
           >
-            Lowest
+            Lowest <KeyboardArrowDownIcon />
           </Button>
           <Button
             variant="contained"
             onClick={() => {
               handleSort("highest");
             }}
-            sx={{ bgcolor: "custom.blue", height: 34 }}
+            sx={{ bgcolor: "#C74D00", height: 34, px: 1 }}
           >
-            Highest
+            Highest <KeyboardArrowUpIcon />
           </Button>
         </Box>
       </Box>
