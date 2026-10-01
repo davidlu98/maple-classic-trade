@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Listing" ALTER COLUMN "status" SET DEFAULT 'ACTIVE',
+ALTER COLUMN "type" DROP DEFAULT;

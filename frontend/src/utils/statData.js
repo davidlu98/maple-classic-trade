@@ -1,0 +1,18 @@
+export const statData = [
+  { key: "incPAD", displayName: "ATK" },
+  { key: "incMAD", displayName: "M.ATK" },
+  { key: "incPDD", displayName: "DEF" },
+  { key: "incMDD", displayName: "M.DEF" },
+  { key: "incSTR", displayName: "STR" },
+  { key: "incDEX", displayName: "DEX" },
+  { key: "incINT", displayName: "INT" },
+  { key: "incLUK", displayName: "LUK" },
+  { key: "incMHP", displayName: "HP" },
+  { key: "incMMP", displayName: "MP" },
+  { key: "incSpeed", displayName: "Speed" },
+  { key: "incJump", displayName: "Jump" },
+  { key: "incACC", displayName: "ACC" },
+  { key: "incEVA", displayName: "Avoid" },
+  { key: "incCRT", displayName: "Crit Rate" },
+  { key: "incCRD", displayName: "Crit Damage" },
+];

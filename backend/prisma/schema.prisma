@@ -1,0 +1,196 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String @id @default(cuid())
+  discordId       String @unique
+  username        String
+  globalName      String
+  avatar          String?
+  listingCount    Int @default(0)
+  createdAt       DateTime @default(now())
+  listings        Listing[]
+  reports         Report[] @relation("ReportCreator")
+  reportsAgainst  Report[] @relation("ReportedUser")
+  feedback        Feedback[]
+  banned          Boolean @default(false)
+}
+
+// Models the datamined item
+model Item {
+  id                Int @id
+  name              String
+  iconUrl           String
+  category          String
+  subCategory       String?
+  weaponType        String?
+  attackSpeed       Int?
+  attackSpeedLabel  String?
+  reqLevel          Int?
+  reqSTR            Int?
+  reqDEX            Int?
+  reqINT            Int?
+  reqLUK            Int?
+  reqPOP            Int?
+  totalUpgradeCount Int?
+  baseStats         ItemBaseStat[]
+  knockback         Int?
+  reqJobLabel       String?
+  reqJobs           Job[]
+  gender            Gender?
+  storeSellPrice    Int?
+  description       String?
+  listings          Listing[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+  @@index([subCategory])
+  @@index([weaponType])
+  @@index([reqLevel])
+  @@index([gender])
+}
+
+// Models the datamined base stats (excluding requirements) of the item
+model ItemBaseStat {
+  id     Int @id @default(autoincrement())
+  itemId Int
+  statId Int
+  value  Int
+  
+  item   Item @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  stat   Stat @relation(fields: [statId], references: [id])
+
+  // An item can only have one base value for a particular stat
+  @@unique([itemId, statId])
+  @@index([itemId])
+  @@index([statId])
+}
+
+// Models every possible stat exactly once here
+model Stat {
+  id           Int @id @default(autoincrement())
+  key          String @unique
+  displayName  String
+  baseStats    ItemBaseStat[]
+  listingStats ListingStat[]
+}
+
+// Models a specific item that is being listed (for buying or selling)
+model Listing {
+  id          Int @id @default(autoincrement())
+  userId      String
+  itemId      Int
+  worldId     Int
+  type        ListingType
+  price       Int
+  quantity    Int @default(1)
+  status      ListingStatus @default(ACTIVE)
+  stats       ListingStat[]
+  remainingUpgradeSlots Int?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  reports     Report[]
+
+  user        User @relation(fields: [userId], references: [id])
+  item        Item @relation(fields: [itemId], references: [id])
+  world       World @relation(fields: [worldId], references: [id])
+
+  @@index([userId])
+  @@index([itemId])
+  @@index([worldId])
+  @@index([status])
+}
+
+// Models the stats of a specific item being listed
+model ListingStat {
+  id        Int @id @default(autoincrement())
+  listingId Int
+  statId    Int
+  // For SELL listings: the item's actual stat
+  // For BUY listings: the desired stat
+  value     Int
+
+  listing   Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  stat      Stat @relation(fields: [statId], references: [id], onDelete: Restrict)
+
+  @@unique([listingId, statId])
+  @@index([statId, value])
+}
+
+// Models the World a listing belongs to
+model World {
+  id       Int    @id @default(autoincrement())
+  name     String @unique
+  listings Listing[]
+}
+
+// Models a Report for a listing
+model Report {
+  id              Int @id @default(autoincrement())
+  listingId       Int?
+  reportedUserId  String
+  userId          String
+  type            ReportType
+  details         String @db.VarChar(250)
+  createdAt       DateTime @default(now())
+  listingSnapshot Json
+
+  user            User @relation("ReportCreator", fields: [userId], references: [id])
+  reportedUser    User @relation("ReportedUser", fields: [reportedUserId], references: [id])
+  listing         Listing? @relation(fields: [listingId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, listingId])
+  @@index([listingId])
+  @@index([reportedUserId])
+}
+
+model Feedback {
+  id        Int @id @default(autoincrement())
+  userId    String
+  details  String @db.VarChar(250)
+  createdAt DateTime @default(now())
+
+  user      User @relation(fields: [userId], references: [id])
+}
+
+enum ReportType {
+  SCAM
+  RMT
+  OTHER
+}
+
+enum Job {
+  WARRIOR
+  BOWMAN
+  MAGE
+  THIEF
+  PIRATE
+  ALL
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+enum ListingStatus {
+  ACTIVE
+  FULFILLED
+}
+
+enum ListingType {
+  BUY
+  SELL
+}
