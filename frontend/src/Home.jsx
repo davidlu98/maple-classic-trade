@@ -87,6 +87,7 @@ export default function Home({ items }) {
             headerColor="custom.blue"
             showActions={false}
             getTimeAgo={true}
+            isHomePage={true}
           />
           <ListingContainer
             title="Looking For"
@@ -94,6 +95,7 @@ export default function Home({ items }) {
             headerColor="custom.green"
             showActions={false}
             getTimeAgo={true}
+            isHomePage={true}
           />
         </Box>
       </Box>

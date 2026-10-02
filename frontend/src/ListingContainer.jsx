@@ -12,6 +12,7 @@ export default function ListingContainer({
   onEdit,
   onDelete,
   getTimeAgo = false,
+  isHomePage = false,
 }) {
   return (
     <Box
@@ -60,6 +61,7 @@ export default function ListingContainer({
             onFulfill={onFulfill}
             onEdit={onEdit}
             onDelete={onDelete}
+            isHomePage={isHomePage}
           />
         ))}
       </Box>
