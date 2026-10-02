@@ -79,7 +79,14 @@ export default function Listing() {
         pt: 2,
       }}
     >
-      <Box sx={{ display: "flex", gap: 1 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          alignItems: { xs: "center", md: "normal" },
+          gap: 1,
+        }}
+      >
         <Box
           sx={{
             bgcolor: "custom.label",
@@ -88,7 +95,7 @@ export default function Listing() {
             alignItems: "center",
             justifyContent: "center",
             height: "100%",
-            width: "280px",
+            width: { xs: "105%", md: "280px" },
             p: 2,
             gap: 0.5,
             borderRadius: 2,
@@ -117,7 +124,13 @@ export default function Listing() {
           </Link>
           <Typography>@{listing.user.username}</Typography>
           <Box
-            sx={{ display: "flex", flexDirection: "column", mt: 0.5, gap: 1 }}
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              mt: 0.5,
+              gap: 1,
+              width: { xs: "100%", md: "250px" },
+            }}
           >
             <Button
               component="a"
@@ -125,7 +138,11 @@ export default function Listing() {
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
-              sx={{ bgcolor: "custom.discord", height: 34, width: "250px" }}
+              sx={{
+                bgcolor: "custom.discord",
+                height: 34,
+                width: "100%",
+              }}
             >
               View Discord Profile (Web)
             </Button>
@@ -135,7 +152,7 @@ export default function Listing() {
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
-              sx={{ bgcolor: "custom.discord", height: 34, width: "250px" }}
+              sx={{ bgcolor: "custom.discord", height: 34, width: "100%" }}
             >
               View Discord Profile (App)
             </Button>
@@ -146,10 +163,8 @@ export default function Listing() {
             display: "flex",
             flexDirection: "column",
             bgcolor: "black",
-            width: "500px",
+            width: { xs: "105%", md: "500px" },
             p: 2,
-            // px: 1,
-            // py: 0.75,
             gap: 1,
             borderRadius: 2,
           }}
@@ -197,17 +212,23 @@ export default function Listing() {
                 Report
               </Button>
             </Box>
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                flexDirection: { xs: "column", md: "row" },
+              }}
+            >
               <Box sx={{ display: "flex", gap: 0.5 }}>
                 <ItemPriceDisplay
                   price={listing.price}
                   fontSize="15px"
                   isEquipment={isEquipment}
                 />
-                {listing.quantity > 1 ? (
+                {!isEquipment ? (
                   <ItemQuantityDisplay
                     quantity={listing.quantity}
-                    fontSize="14px"
+                    fontSize="15px"
                   />
                 ) : null}
               </Box>

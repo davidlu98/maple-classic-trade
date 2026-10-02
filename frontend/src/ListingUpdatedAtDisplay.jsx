@@ -11,7 +11,9 @@ export default function ListingUpdatedAtDisplay({
 
   return (
     <Box sx={{ display: "flex", alignItems: "center", gap: 0.5 }}>
-      <Typography sx={{ fontSize: "14px" }}>{formattedDate}</Typography>
+      <Typography sx={{ fontSize: { xs: "15px", md: "14px" } }}>
+        {formattedDate}
+      </Typography>
     </Box>
   );
 }
