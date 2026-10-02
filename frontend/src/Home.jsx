@@ -60,7 +60,7 @@ export default function Home({ items }) {
       <SearchByTerm items={items} onItemClick={handleItemClick} />
       <SearchByType />
 
-      <Box>
+      <Box sx={{ minWidth: { xs: "100%", md: "1050px" } }}>
         <Box
           sx={{
             display: "flex",
