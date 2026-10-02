@@ -14,15 +14,15 @@ export default function Privacy() {
     >
       <Box
         sx={{
-          width: "700px",
-          p: 4,
+          width: { xs: "100%", md: 700 },
+          p: 2,
           display: "flex",
           flexDirection: "column",
           gap: 1,
         }}
       >
         <Typography
-          variant="h3"
+          variant="h4"
           sx={{ mb: 1, fontWeight: "bold", textAlign: "center" }}
         >
           Privacy

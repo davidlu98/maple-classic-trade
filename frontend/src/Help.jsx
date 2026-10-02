@@ -18,11 +18,10 @@ export default function Help() {
           p: 1,
           display: "flex",
           flexDirection: "column",
-          gap: 1,
         }}
       >
         <Typography
-          variant="h3"
+          variant="h4"
           sx={{ mb: 1, fontWeight: "bold", textAlign: "center" }}
         >
           Help
