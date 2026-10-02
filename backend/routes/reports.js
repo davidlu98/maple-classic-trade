@@ -32,10 +32,10 @@ router.post("/:id", authMiddleware, async (req, res, next) => {
     if (
       typeof reportDetails !== "string" ||
       reportDetails.trim().length === 0 ||
-      reportDetails.length > 250
+      reportDetails.length > 1000
     ) {
       return res.status(400).json({
-        error: "Report details must be between 1 and 250 characters",
+        error: "Report details must be between 1 and 1000 characters",
       });
     }
 

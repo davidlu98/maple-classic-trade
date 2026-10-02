@@ -144,7 +144,7 @@ model Report {
   reportedUserId  String
   userId          String
   type            ReportType
-  details         String @db.VarChar(250)
+  details         String @db.VarChar(1000)
   createdAt       DateTime @default(now())
   listingSnapshot Json
 
@@ -160,7 +160,7 @@ model Report {
 model Feedback {
   id        Int @id @default(autoincrement())
   userId    String
-  details  String @db.VarChar(250)
+  details  String @db.VarChar(1000)
   createdAt DateTime @default(now())
 
   user      User @relation(fields: [userId], references: [id])

@@ -2,11 +2,18 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-import { Alert, Box, Button, TextField, Snackbar } from "@mui/material";
+import {
+  Alert,
+  Box,
+  Button,
+  Snackbar,
+  TextField,
+  Typography,
+} from "@mui/material";
 
 const API_URL = import.meta.env.VITE_BACKEND_URL;
 
-const MAX_FEEDBACK_SIZE = 250;
+const MAX_FEEDBACK_SIZE = 1000;
 
 export default function Feedback() {
   const navigate = useNavigate();
@@ -49,7 +56,7 @@ export default function Feedback() {
   };
 
   const handleFeedbackDetailsChange = (value) => {
-    const regex = /^[a-zA-Z0-9,.!'" ]*$/;
+    const regex = /^[a-zA-Z0-9,.!'" :/?&=\r\n]*$/;
 
     if (value.length <= MAX_FEEDBACK_SIZE && regex.test(value)) {
       setFeedbackDetails(value);
@@ -87,11 +94,18 @@ export default function Feedback() {
             width: "500px",
           }}
         >
+          <Box>
+            <Typography>
+              Please provide any feedback you have for the website here.
+            </Typography>
+            <Typography>You can submit feedback once a day.</Typography>
+          </Box>
+
           <TextField
             label="Feedback Details"
             variant="outlined"
             multiline
-            rows={5}
+            rows={15}
             fullWidth
             value={feedbackDetails}
             onChange={(e) => {

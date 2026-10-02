@@ -15,10 +15,10 @@ router.post("/", authMiddleware, async (req, res, next) => {
     if (
       typeof feedbackDetails !== "string" ||
       feedbackDetails.trim().length === 0 ||
-      feedbackDetails.length > 250
+      feedbackDetails.length > 1000
     ) {
       return res.status(400).json({
-        error: "Feedback details must be between 1 and 250 characters",
+        error: "Feedback details must be between 1 and 1000 characters",
       });
     }
 

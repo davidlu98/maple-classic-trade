@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Feedback" ALTER COLUMN "details" SET DATA TYPE VARCHAR(1000);
+
+-- AlterTable
+ALTER TABLE "Report" ALTER COLUMN "details" SET DATA TYPE VARCHAR(1000);

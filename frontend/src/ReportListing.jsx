@@ -4,11 +4,18 @@ import axios from "axios";
 
 import LabeledSelect from "./LabeledSelect";
 
-import { Alert, Box, Button, TextField, Snackbar } from "@mui/material";
+import {
+  Alert,
+  Box,
+  Button,
+  Snackbar,
+  TextField,
+  Typography,
+} from "@mui/material";
 
 const API_URL = import.meta.env.VITE_BACKEND_URL;
 
-const MAX_DETAILS_SIZE = 250;
+const MAX_DETAILS_SIZE = 1000;
 
 export default function ReportListing() {
   const { listingId } = useParams();
@@ -62,7 +69,7 @@ export default function ReportListing() {
   };
 
   const handleReportDetailsChange = (value) => {
-    const regex = /^[a-zA-Z0-9,.!'" ]*$/;
+    const regex = /^[a-zA-Z0-9,.!'" :/?&=\r\n]*$/;
 
     if (value.length <= MAX_DETAILS_SIZE && regex.test(value)) {
       setReportDetails(value);
@@ -115,6 +122,23 @@ export default function ReportListing() {
             width: "500px",
           }}
         >
+          <Box>
+            <Typography sx={{ fontSize: 16 }}>
+              Provide report details and Discord image links to support claims.
+            </Typography>
+            <Typography sx={{ fontSize: 16 }}>
+              To copy a Discord image link, follow these steps:
+            </Typography>
+            <Box
+              component="ol"
+              sx={{ pl: 3, "& li": { mb: 1, pl: 1, lineHeight: 1.6 } }}
+            >
+              <li>Screenshot the image.</li>
+              <li>Paste the image into any Discord.</li>
+              <li>Right click on the image and click "Copy Image Link".</li>
+              <li>Paste the image link(s) in the Report Details (Ctrl+V).</li>
+            </Box>
+          </Box>
           <LabeledSelect
             label="Report Type"
             value={reportType}
@@ -125,7 +149,7 @@ export default function ReportListing() {
             label="Report Details"
             variant="outlined"
             multiline
-            rows={5}
+            rows={15}
             fullWidth
             value={reportDetails}
             onChange={(e) => {
