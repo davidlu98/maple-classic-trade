@@ -98,7 +98,6 @@ export default function ReportListing() {
         flexDirection: "column",
         justifyContent: "flex-start",
         alignItems: "center",
-        minHeight: "100vh",
         height: "auto",
         pt: 2,
       }}
@@ -119,7 +118,7 @@ export default function ReportListing() {
             display: "flex",
             flexDirection: "column",
             gap: 2,
-            width: "500px",
+            width: { xs: "100%", md: 500 },
           }}
         >
           <Box>
@@ -149,7 +148,7 @@ export default function ReportListing() {
             label="Report Details"
             variant="outlined"
             multiline
-            rows={15}
+            rows={18}
             fullWidth
             value={reportDetails}
             onChange={(e) => {
