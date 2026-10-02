@@ -14,8 +14,8 @@ export default function Help() {
     >
       <Box
         sx={{
-          width: "700px",
-          p: 4,
+          width: { xs: "100%", md: 700 },
+          p: 1,
           display: "flex",
           flexDirection: "column",
           gap: 1,

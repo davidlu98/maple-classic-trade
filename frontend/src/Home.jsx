@@ -6,7 +6,7 @@ import SearchByTerm from "./SearchByTerm";
 import SearchByType from "./SearchByType";
 import ListingContainer from "./ListingContainer";
 
-import { Alert, Box, Snackbar, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 const MAX_LISTINGS_SHOWN = 6;
 
@@ -52,8 +52,9 @@ export default function Home({ items }) {
         justifyContent: "flex-start",
         alignItems: "center",
         height: "auto",
+        width: "100%",
         pt: 2,
-        gap: 3,
+        gap: { xs: 1, md: 3 },
       }}
     >
       <SearchByTerm items={items} onItemClick={handleItemClick} />
@@ -65,7 +66,7 @@ export default function Home({ items }) {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            width: "1050px",
+            width: { xs: "100%", md: "1050px" },
             bgcolor: "custom.label",
             height: 40,
           }}
@@ -76,9 +77,9 @@ export default function Home({ items }) {
           sx={{
             bgcolor: "custom.dark",
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            width: "1050px",
-            gap: 1,
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+            width: { xs: "100%", md: "1050px" },
+            gap: { xs: 0.5, md: 1 },
           }}
         >
           <ListingContainer

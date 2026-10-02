@@ -178,11 +178,11 @@ const itemTypes = [
 export default function SearchByType() {
   return (
     <Box sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}>
-      <Typography align="center">Search by Item type</Typography>
+      <Typography sx={{ textAlign: "center" }}>Search by Item type</Typography>
       <Box
         sx={{
           display: "grid",
-          gridTemplateColumns: "repeat(8, 54px)",
+          gridTemplateColumns: { xs: "repeat(6, 54px)", md: "repeat(8, 54px)" },
           width: "fit-content",
           gap: "7px",
         }}

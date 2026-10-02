@@ -8,7 +8,7 @@ const MAX_RESULTS = 50;
 export default function SearchByTerm({
   items,
   onItemClick,
-  containerSize = "480px",
+  containerSize = { xs: "95%", md: 480 },
   clearOnSelect = false,
   selectedItemId = "",
 }) {

@@ -3,7 +3,7 @@ import ListingRow from "./ListingRow";
 import { Box, Typography } from "@mui/material";
 
 export default function ListingContainer({
-  containerHeight = "420px",
+  containerHeight = 420,
   title,
   listings,
   headerColor,
@@ -21,7 +21,7 @@ export default function ListingContainer({
         display: "flex",
         flexDirection: "column",
         width: "100%",
-        height: containerHeight,
+        height: { xs: 295, md: containerHeight },
         px: 1,
         py: 1,
         gap: 1,
