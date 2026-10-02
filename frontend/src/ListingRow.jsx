@@ -60,7 +60,7 @@ export default function ListingRow({
       <Box
         sx={{
           display: "grid",
-          gridTemplateColumns: "10% 1fr",
+          gridTemplateColumns: { xs: "15% 1fr", md: "10% 1fr" },
           gap: 1,
         }}
       >
