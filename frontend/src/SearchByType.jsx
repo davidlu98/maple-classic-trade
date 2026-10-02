@@ -195,6 +195,7 @@ export default function SearchByType() {
                 to={`/search?${params.toString()}`}
                 sx={{
                   bgcolor: "custom.filter",
+                  position: "relative",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -222,7 +223,21 @@ export default function SearchByType() {
                     objectFit: "contain",
                     pointerEvents: "none",
                   }}
-                ></Box>
+                />
+                {item.name === "Cash" && (
+                  <Box
+                    component="img"
+                    src="/cash_icon.png"
+                    alt=""
+                    sx={{
+                      position: "absolute",
+                      right: 10,
+                      bottom: 4,
+                      objectFit: "contain",
+                      pointerEvents: "none",
+                    }}
+                  />
+                )}
               </ButtonBase>
             </Tooltip>
           );
