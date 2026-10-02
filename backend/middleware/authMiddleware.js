@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
+const prisma = require("../prismaClient");
 
-function authMiddleware(req, res, next) {
+async function authMiddleware(req, res, next) {
   // console.log("req headers:", req.headers);
 
   const authHeader = req.headers.authorization;
@@ -12,7 +13,27 @@ function authMiddleware(req, res, next) {
   const token = authHeader.split(" ")[1];
 
   try {
-    req.user = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+    const user = await prisma.user.findUnique({
+      where: {
+        id: decoded.id,
+      },
+      select: {
+        id: true,
+        banned: true,
+      },
+    });
+
+    if (!user) {
+      return res.status(401).json({ error: "User not found" });
+    }
+
+    if (user.banned) {
+      return res.status(403).json({ error: "Your account has been banned" });
+    }
+
+    req.user = user;
     next();
   } catch (error) {
     console.log(error);

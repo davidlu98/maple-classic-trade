@@ -39,9 +39,22 @@ function App() {
       const response = await axios.get(`${API_URL}/account`, {
         headers: { Authorization: `Bearer ${token}` },
       });
+
       setUser(response.data);
     } catch (error) {
-      setErrorMessage(error.response?.data?.error || "Invalid token");
+      if (error.response?.status === 401) {
+        localStorage.removeItem("token");
+        setUser(null);
+        setErrorMessage(error.response?.data?.error || "Invalid token");
+      }
+
+      if (error.response?.status === 403) {
+        localStorage.removeItem("token");
+        setUser(null);
+        setErrorMessage(
+          error.response?.data?.error || "Your account has been banned",
+        );
+      }
 
       // Only remove the token if the server explicity says "unauthorized"
       if (error.response?.status === 401) {
