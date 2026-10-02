@@ -12,9 +12,7 @@ export default function Navbar({ user, logout }) {
         position="static"
         elevation={0}
         sx={{
-          bgcolor: "background.default",
-          borderBottom: "1px solid ",
-          borderColor: "custom.borderLightGray",
+          bgcolor: "custom.filter",
         }}
       >
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
