@@ -30,7 +30,7 @@ export default function Help() {
           component="ol"
           sx={{ pl: 3, "& li": { mb: 1, pl: 1, lineHeight: 1.6 } }}
         >
-          <li>Authenticate using Discord.</li>
+          <li>Login using Discord.</li>
           <li>Search for listings, or create your own.</li>
           <li>
             When you find a listing for an item you want to buy or sell, click
