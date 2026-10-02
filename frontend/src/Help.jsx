@@ -8,7 +8,7 @@ export default function Help() {
         flexDirection: "column",
         justifyContent: "flex-start",
         alignItems: "center",
-        height: "100vh",
+        height: "auto",
         pt: 2,
       }}
     >

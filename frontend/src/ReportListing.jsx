@@ -69,7 +69,7 @@ export default function ReportListing() {
   };
 
   const handleReportDetailsChange = (value) => {
-    const regex = /^[a-zA-Z0-9,.!'" :/?&=\r\n]*$/;
+    const regex = /^[a-zA-Z0-9,.!'" -:/?&=\r\n]*$/;
 
     if (value.length <= MAX_DETAILS_SIZE && regex.test(value)) {
       setReportDetails(value);

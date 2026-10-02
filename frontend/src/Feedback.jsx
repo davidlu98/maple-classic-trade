@@ -56,7 +56,7 @@ export default function Feedback() {
   };
 
   const handleFeedbackDetailsChange = (value) => {
-    const regex = /^[a-zA-Z0-9,.!'" :/?&=\r\n]*$/;
+    const regex = /^[a-zA-Z0-9,.!'" -:/?&=\r\n]*$/;
 
     if (value.length <= MAX_FEEDBACK_SIZE && regex.test(value)) {
       setFeedbackDetails(value);
@@ -70,7 +70,6 @@ export default function Feedback() {
         flexDirection: "column",
         justifyContent: "flex-start",
         alignItems: "center",
-        minHeight: "100vh",
         height: "auto",
         pt: 2,
       }}
@@ -91,7 +90,7 @@ export default function Feedback() {
             display: "flex",
             flexDirection: "column",
             gap: 2,
-            width: "500px",
+            width: { xs: "100%", md: 500 },
           }}
         >
           <Box>
@@ -105,7 +104,7 @@ export default function Feedback() {
             label="Feedback Details"
             variant="outlined"
             multiline
-            rows={15}
+            rows={24}
             fullWidth
             value={feedbackDetails}
             onChange={(e) => {
