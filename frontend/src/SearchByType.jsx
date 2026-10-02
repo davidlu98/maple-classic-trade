@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 const itemTypes = [
   {
+    name: "All",
+  },
+  {
     name: "One-Handed Sword",
     image: "/searchCategoryIcons/oh_sword.png",
     type: "weaponType",
@@ -186,13 +189,19 @@ export default function SearchByType() {
       >
         {itemTypes.map((item) => {
           const params = new URLSearchParams();
-          params.set(item.type, item.value);
+
+          if (item.name !== "All") {
+            params.set(item.type, item.value);
+          }
+
+          const searchUrl =
+            item.name === "All" ? "/search" : `/search?${params.toString()}`;
 
           return (
             <Tooltip key={item.name} title={item.name}>
               <ButtonBase
                 component={Link}
-                to={`/search?${params.toString()}`}
+                to={searchUrl}
                 sx={{
                   bgcolor: "custom.filter",
                   position: "relative",
@@ -213,17 +222,22 @@ export default function SearchByType() {
                   },
                 }}
               >
-                <Box
-                  component="img"
-                  src={item.image}
-                  alt={item.name}
-                  sx={{
-                    width: 32,
-                    height: 32,
-                    objectFit: "contain",
-                    pointerEvents: "none",
-                  }}
-                />
+                {item.name === "All" ? (
+                  <Typography sx={{ fontWeight: "bold" }}>ALL</Typography>
+                ) : (
+                  <Box
+                    component="img"
+                    src={item.image}
+                    alt={item.name}
+                    sx={{
+                      width: 32,
+                      height: 32,
+                      objectFit: "contain",
+                      pointerEvents: "none",
+                    }}
+                  />
+                )}
+
                 {item.name === "Cash" && (
                   <Box
                     component="img"
