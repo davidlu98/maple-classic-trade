@@ -223,7 +223,7 @@ export default function SearchByType() {
                 }}
               >
                 {item.name === "All" ? (
-                  <Typography sx={{ fontWeight: "bold" }}>ALL</Typography>
+                  <Typography>ALL</Typography>
                 ) : (
                   <Box
                     component="img"
