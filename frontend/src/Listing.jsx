@@ -6,6 +6,7 @@ import Item from "./Item";
 import ItemPriceDisplay from "./ItemPriceDisplay";
 import ItemQuantityDisplay from "./ItemQuantityDisplay";
 import ListingUpdatedAtDisplay from "./ListingUpdatedAtDisplay";
+import LabeledNumberInput from "./LabeledNumberInput";
 import DiscordCopyMessageButton from "./DiscordCopyMessageButton";
 
 import {
@@ -24,8 +25,13 @@ export default function Listing() {
   const { listingId } = useParams();
 
   const [listing, setListing] = useState(null);
+  const [quantity, setQuantity] = useState(1);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
+
+  const handleQuantityChange = (value) => {
+    setQuantity(value);
+  };
 
   useEffect(() => {
     const fetchListingData = async () => {
@@ -217,12 +223,25 @@ export default function Listing() {
             }}
           >
             <Item item={listing.item} listing={listing} containerSize="320px" />
+            {!isEquipment && (
+              <Box sx={{ width: "320px" }}>
+                <LabeledNumberInput
+                  label="Quantity"
+                  value={quantity}
+                  onChange={handleQuantityChange}
+                  max={listing.quantity}
+                />
+              </Box>
+            )}
+
             {listing.status === "ACTIVE" ? (
               <DiscordCopyMessageButton
                 listingType={listing.type}
                 discordUsername={listing.user.username}
                 itemName={listing.item.name}
                 itemPrice={listing.price}
+                quantity={quantity}
+                isEquipment={isEquipment}
                 listingLink={`${window.location.origin}/listing/${listingId}`}
               />
             ) : null}

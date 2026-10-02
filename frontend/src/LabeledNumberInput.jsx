@@ -4,6 +4,7 @@ export default function LabeledNumberInput({
   label,
   value,
   onChange,
+  max,
   gridTemplateColumns = "58% 42%",
 }) {
   return (
@@ -27,7 +28,18 @@ export default function LabeledNumberInput({
         onChange={(e) => {
           const value = e.target.value;
 
-          if (/^\d*$/.test(value)) {
+          if (!/^\d*$/.test(value)) {
+            return;
+          }
+
+          if (value === "") {
+            onChange(value);
+            return;
+          }
+
+          const numericValue = Number(value);
+
+          if (max === undefined || numericValue <= max) {
             onChange(value);
           }
         }}
