@@ -125,14 +125,20 @@ export default function Account({ user }) {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
-        minHeight: "100vh",
-        height: "auto",
+        minHeight: "auto",
+        width: "100%",
         pt: 2,
       }}
     >
-      <Box sx={{ display: "flex", gap: 1 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          alignItems: { xs: "center", md: "normal" },
+          gap: 1,
+        }}
+      >
         <Box
           sx={{
             bgcolor: "custom.label",
@@ -141,7 +147,7 @@ export default function Account({ user }) {
             alignItems: "center",
             justifyContent: "center",
             height: "100%",
-            width: "280px",
+            width: { xs: "100%", md: "280px" },
             p: 2,
             gap: 0.5,
             borderRadius: 2,
@@ -176,9 +182,9 @@ export default function Account({ user }) {
           sx={{
             bgcolor: "custom.dark",
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            width: "1200px",
-            gap: 1,
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+            width: { xs: "100%", md: "1200px" },
+            gap: { xs: 0.5, md: 1 },
           }}
         >
           <ListingContainer
@@ -189,6 +195,7 @@ export default function Account({ user }) {
             onFulfill={handleFulfill}
             onEdit={handleEdit}
             onDelete={handleDelete}
+            addEllipses={true}
           />
           <ListingContainer
             title="Looking For"
@@ -198,6 +205,7 @@ export default function Account({ user }) {
             onFulfill={handleFulfill}
             onEdit={handleEdit}
             onDelete={handleDelete}
+            addEllipses={true}
           />
           <ListingContainer
             title="Sold"
@@ -206,6 +214,7 @@ export default function Account({ user }) {
             showActions={(listing) => listing.status !== "FULFILLED"}
             onFulfill={handleFulfill}
             onDelete={handleDelete}
+            addEllipses={true}
           />
           <ListingContainer
             title="Bought"
@@ -214,6 +223,7 @@ export default function Account({ user }) {
             showActions={(listing) => listing.status !== "FULFILLED"}
             onFulfill={handleFulfill}
             onDelete={handleDelete}
+            addEllipses={true}
           />
         </Box>
       </Box>

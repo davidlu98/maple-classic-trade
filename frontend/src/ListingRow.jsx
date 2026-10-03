@@ -9,7 +9,15 @@ import ItemQuantityDisplay from "./ItemQuantityDisplay";
 import ListingUpdatedAtDisplay from "./ListingUpdatedAtDisplay";
 import UserDisplay from "./UserDisplay";
 
-import { Box, Button, Link, Typography, Popper } from "@mui/material";
+import {
+  Box,
+  Button,
+  Link,
+  Typography,
+  Popper,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 
 import { getStatDifferenceTriangleColor } from "./utils/getStatDifferenceTriangleColor";
 
@@ -43,6 +51,9 @@ export default function ListingRow({
 
   const isFulfilled = listing.status === "FULFILLED";
 
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <Box
       sx={{
@@ -53,7 +64,7 @@ export default function ListingRow({
         borderColor: "custom.borderLightGray",
         px: 1,
         py: 1,
-        // gap: 1, // for gap between price/date & view details
+        gap: { xs: 0.5, md: 0 }, // for gap between price/date & view details
         borderRadius: 1,
       }}
     >
@@ -173,19 +184,44 @@ export default function ListingRow({
             />
             <UserDisplay user={listing.user} />
           </Box>
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "space-between",
-              minHeight: 26,
-            }}
-          >
-            <ItemPriceDisplay price={listing.price} isEquipment={isEquipment} />
-            <ListingUpdatedAtDisplay
-              updatedAt={listing.updatedAt}
-              getTimeAgo={getTimeAgo}
-            />
-          </Box>
+          {!isMobile && (
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                minHeight: 26,
+              }}
+            >
+              <ItemPriceDisplay
+                price={listing.price}
+                isEquipment={isEquipment}
+              />
+              <ListingUpdatedAtDisplay
+                updatedAt={listing.updatedAt}
+                getTimeAgo={getTimeAgo}
+              />
+            </Box>
+          )}
+          {isMobile && (
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                minHeight: 26,
+              }}
+            >
+              <ItemPriceDisplay
+                price={listing.price}
+                isEquipment={isEquipment}
+              />
+              <Box sx={{ alignSelf: "flex-end" }}>
+                <ListingUpdatedAtDisplay
+                  updatedAt={listing.updatedAt}
+                  getTimeAgo={getTimeAgo}
+                />
+              </Box>
+            </Box>
+          )}
         </Box>
       </Box>
       <Box
