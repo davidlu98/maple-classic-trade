@@ -37,7 +37,11 @@ export default function EquipmentFilters({ filters, onFilterChange }) {
       </Box>
 
       <Box
-        sx={{ display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: 0.5 }}
+        sx={{
+          display: "grid",
+          gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+          columnGap: 0.5,
+        }}
       >
         {filterConfig
           .filter((filter) => filter.type === "range")

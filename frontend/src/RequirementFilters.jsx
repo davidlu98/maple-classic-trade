@@ -46,7 +46,7 @@ export default function RequirementFilters({ filters, onFilterChange }) {
       <Box
         sx={{
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
           columnGap: 0.5,
           rowGap: 0.3,
         }}

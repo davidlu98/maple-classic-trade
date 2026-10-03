@@ -184,25 +184,7 @@ export default function ListingRow({
             />
             <UserDisplay user={listing.user} />
           </Box>
-          {!isMobile && (
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "space-between",
-                minHeight: 26,
-              }}
-            >
-              <ItemPriceDisplay
-                price={listing.price}
-                isEquipment={isEquipment}
-              />
-              <ListingUpdatedAtDisplay
-                updatedAt={listing.updatedAt}
-                getTimeAgo={getTimeAgo}
-              />
-            </Box>
-          )}
-          {isMobile && (
+          {isMobile ? (
             <Box
               sx={{
                 display: "flex",
@@ -220,6 +202,23 @@ export default function ListingRow({
                   getTimeAgo={getTimeAgo}
                 />
               </Box>
+            </Box>
+          ) : (
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                minHeight: 26,
+              }}
+            >
+              <ItemPriceDisplay
+                price={listing.price}
+                isEquipment={isEquipment}
+              />
+              <ListingUpdatedAtDisplay
+                updatedAt={listing.updatedAt}
+                getTimeAgo={getTimeAgo}
+              />
             </Box>
           )}
         </Box>

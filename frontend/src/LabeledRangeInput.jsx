@@ -4,7 +4,7 @@ export default function LabeledRangeInput({
   label,
   value,
   onChange,
-  gridTemplateColumns = "60% 20% 20%",
+  gridTemplateColumns = "58% 21% 21%",
 }) {
   const handleChange = (field) => (e) => {
     const value = e.target.value;

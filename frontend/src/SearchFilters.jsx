@@ -7,7 +7,7 @@ import EquipmentFilters from "./EquipmentFilters";
 import TradeFilters from "./TradeFilters";
 import StatFilters from "./StatFilters";
 
-import { Box, Button } from "@mui/material";
+import { Box, Button, useMediaQuery, useTheme } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
@@ -20,6 +20,9 @@ export default function SearchFilters({
   allItems,
 }) {
   const [filtersVisible, setFiltersVisible] = useState(true);
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleToggleFilters = () => {
     setFiltersVisible((prev) => !prev);
@@ -40,14 +43,14 @@ export default function SearchFilters({
         items={allItems}
         onItemClick={onItemClick}
         selectedItemId={filters.itemId}
-        containerSize="750px"
+        containerSize={isMobile ? "100%" : "750px"}
       />
 
       {filtersVisible && (
         <Box
           sx={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
             gap: 1,
           }}
         >
@@ -72,28 +75,12 @@ export default function SearchFilters({
         </Box>
       )}
 
-      <Box sx={{ position: "relative", width: "100%", height: 34 }}>
-        <Button
-          variant="contained"
-          onClick={onSearch}
-          sx={{
-            bgcolor: "custom.blue",
-            position: "absolute",
-            left: "50%",
-            transform: "translateX(-50%)",
-            width: 240,
-            height: 34,
-          }}
-        >
-          Search
-        </Button>
-
+      {isMobile ? (
         <Box
           sx={{
-            display: "flex",
-            position: "absolute",
-            right: 0,
-            gap: 0.5,
+            display: "grid",
+            gridTemplateColumns: "1fr auto 1fr",
+            alignItems: "center",
           }}
         >
           <Button
@@ -102,14 +89,32 @@ export default function SearchFilters({
             sx={{
               bgcolor: "custom.filter",
               height: 34,
+              justifySelf: "start",
             }}
           >
             Clear
           </Button>
+
+          <Button
+            variant="contained"
+            onClick={onSearch}
+            sx={{
+              bgcolor: "custom.blue",
+              height: 34,
+            }}
+          >
+            Search
+          </Button>
+
           <Button
             variant="contained"
             onClick={handleToggleFilters}
-            sx={{ bgcolor: "custom.blue", height: 34, px: 1 }}
+            sx={{
+              bgcolor: "custom.blue",
+              height: 34,
+              px: 1,
+              justifySelf: "end",
+            }}
           >
             {filtersVisible ? (
               <>
@@ -124,7 +129,61 @@ export default function SearchFilters({
             )}
           </Button>
         </Box>
-      </Box>
+      ) : (
+        <Box sx={{ position: "relative", width: "100%", height: 34 }}>
+          <Button
+            variant="contained"
+            onClick={onSearch}
+            sx={{
+              bgcolor: "custom.blue",
+              position: "absolute",
+              left: "50%",
+              transform: "translateX(-50%)",
+              width: 240,
+              height: 34,
+            }}
+          >
+            Search
+          </Button>
+
+          <Box
+            sx={{
+              display: "flex",
+              position: "absolute",
+              right: 0,
+              gap: 0.5,
+            }}
+          >
+            <Button
+              variant="contained"
+              onClick={onClear}
+              sx={{
+                bgcolor: "custom.filter",
+                height: 34,
+              }}
+            >
+              Clear
+            </Button>
+            <Button
+              variant="contained"
+              onClick={handleToggleFilters}
+              sx={{ bgcolor: "custom.blue", height: 34, px: 1 }}
+            >
+              {filtersVisible ? (
+                <>
+                  Hide Filters
+                  <KeyboardArrowUpIcon />
+                </>
+              ) : (
+                <>
+                  Show Filters
+                  <KeyboardArrowDownIcon />
+                </>
+              )}
+            </Button>
+          </Box>
+        </Box>
+      )}
     </Box>
   );
 }

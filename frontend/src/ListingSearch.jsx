@@ -6,7 +6,13 @@ import SearchFilters from "./SearchFilters";
 import ListingContainer from "./ListingContainer";
 import { statData } from "./utils/statData";
 
-import { Box, Button, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
@@ -62,6 +68,9 @@ const getInitialFilters = () => ({
 
 export default function ListingSearch({ allItems }) {
   const [searchParams, setSearchParams] = useSearchParams();
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const [filters, setFilters] = useState(() => {
     const initial = getInitialFilters();
@@ -295,86 +304,85 @@ export default function ListingSearch({ allItems }) {
       sx={{
         display: "flex",
         flexDirection: "column",
+        alignItems: "center",
         minHeight: "100vh",
         height: "auto",
-        width: "1500px",
-        maxWidth: "100%",
-        mx: "auto",
+        width: "100%",
         pt: 2,
       }}
     >
-      <SearchFilters
-        filters={filters}
-        onFilterChange={handleFilterChange}
-        onItemClick={handleItemClick}
-        onSearch={handleSearch}
-        onClear={handleClear}
-        allItems={allItems}
-      />
-
-      <Box
-        sx={{
-          bgcolor: "custom.label",
-          position: "relative",
-          display: "flex",
-          width: "100%",
-          height: 50,
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Typography>
-          {listings.length === 0
-            ? "No Results Found"
-            : `Showing ${listings.length} Result${listings.length > 1 ? "s" : ""}`}
-        </Typography>
+      <Box sx={{ width: { xs: "100%", md: "1520px" } }}>
+        <SearchFilters
+          filters={filters}
+          onFilterChange={handleFilterChange}
+          onItemClick={handleItemClick}
+          onSearch={handleSearch}
+          onClear={handleClear}
+          allItems={allItems}
+        />
 
         <Box
           sx={{
+            bgcolor: "custom.label",
+            position: "relative",
             display: "flex",
-            position: "absolute",
-            right: 8,
-            gap: 0.5,
+            flexDirection: isMobile ? "column" : "row",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: isMobile ? 1 : 0,
+            p: isMobile ? 1 : 0,
+            height: isMobile ? "auto" : 50,
           }}
         >
-          <Button
-            variant="contained"
-            onClick={() => {
-              handleSort("recent");
+          <Typography>
+            {listings.length === 0
+              ? "No Results Found"
+              : `Showing ${listings.length} Result${listings.length > 1 ? "s" : ""}`}
+          </Typography>
+
+          <Box
+            sx={{
+              display: "flex",
+              gap: 0.5,
+              position: isMobile ? "static" : "absolute",
+              ...(isMobile ? {} : { position: "absolute", right: 8 }),
             }}
-            sx={{ bgcolor: "custom.blue", height: 34 }}
           >
-            Recent
-          </Button>
-          <Button
-            variant="contained"
-            onClick={() => {
-              handleSort("lowest");
-            }}
-            sx={{ bgcolor: "#C74D00", height: 34, px: 1 }}
-          >
-            Lowest <KeyboardArrowDownIcon />
-          </Button>
-          <Button
-            variant="contained"
-            onClick={() => {
-              handleSort("highest");
-            }}
-            sx={{ bgcolor: "#C74D00", height: 34, px: 1 }}
-          >
-            Highest <KeyboardArrowUpIcon />
-          </Button>
+            <Button
+              variant="contained"
+              onClick={() => handleSort("recent")}
+              sx={{ bgcolor: "custom.blue", height: 34 }}
+            >
+              Recent
+            </Button>
+
+            <Button
+              variant="contained"
+              onClick={() => handleSort("lowest")}
+              sx={{ bgcolor: "#C74D00", height: 34, px: 1 }}
+            >
+              Lowest <KeyboardArrowDownIcon />
+            </Button>
+
+            <Button
+              variant="contained"
+              onClick={() => handleSort("highest")}
+              sx={{ bgcolor: "#C74D00", height: 34, px: 1 }}
+            >
+              Highest <KeyboardArrowUpIcon />
+            </Button>
+          </Box>
         </Box>
       </Box>
 
       {listings.length > 0 ? (
         <Box
           sx={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            width: "1500px",
             bgcolor: "custom.dark",
-            gap: 1,
+            display: "grid",
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+            width: { xs: "100%", md: "1520px" },
+            gap: { xs: 0.5, md: 1 },
             mb: 1,
           }}
         >
@@ -384,6 +392,7 @@ export default function ListingSearch({ allItems }) {
             headerColor="custom.blue"
             showActions={false}
             getTimeAgo={true}
+            addEllipses={true}
           />
           <ListingContainer
             title="Looking For"
@@ -391,6 +400,7 @@ export default function ListingSearch({ allItems }) {
             headerColor="custom.green"
             showActions={false}
             getTimeAgo={true}
+            addEllipses={true}
           />
         </Box>
       ) : null}
