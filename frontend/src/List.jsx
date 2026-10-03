@@ -254,21 +254,23 @@ export default function List({ items, fetchUser }) {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        height: "100vh",
+        minHeight: "100vh",
         width: "100%",
         pt: 2,
-        gap: 2,
       }}
     >
       <Box
         sx={{
+          bgcolor: "black",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          bgcolor: "black",
+          width: "100%",
+          maxWidth: { xs: "100%", md: 530 },
+          boxSizing: "border-box",
           p: 2,
-          borderRadius: 2,
           gap: 2,
+          borderRadius: 2,
         }}
       >
         <SearchByTerm
