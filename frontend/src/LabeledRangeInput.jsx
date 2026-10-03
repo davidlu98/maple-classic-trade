@@ -52,6 +52,9 @@ export default function LabeledRangeInput({
         placeholder="MIN"
         value={value.min}
         onChange={handleChange("min")}
+        inputProps={{
+          inputMode: "numeric",
+        }}
         sx={textFieldSx}
       />
       <TextField
@@ -59,6 +62,9 @@ export default function LabeledRangeInput({
         placeholder="MAX"
         value={value.max}
         onChange={handleChange("max")}
+        inputProps={{
+          inputMode: "numeric",
+        }}
         sx={{ ...textFieldSx, ml: 0.5 }}
       />
     </Box>
