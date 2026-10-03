@@ -78,10 +78,9 @@ export default function User() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
-        minHeight: "100vh",
-        height: "auto",
+        minHeight: "auto",
+        width: "100%",
         pt: 2,
       }}
     >
@@ -101,7 +100,7 @@ export default function User() {
             alignItems: "center",
             justifyContent: "center",
             height: "100%",
-            width: { xs: "100%", md: "280px" },
+            width: { xs: "95%", md: "280px" },
             p: 2,
             gap: 0.5,
             borderRadius: 2,
@@ -152,7 +151,7 @@ export default function User() {
             bgcolor: "custom.dark",
             display: "grid",
             gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
-            width: { xs: "100%", md: "1200px" },
+            width: { xs: "95%", md: "1200px" },
             gap: { xs: 0.5, md: 1 },
           }}
         >

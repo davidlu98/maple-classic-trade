@@ -49,7 +49,6 @@ export default function Home({ items }) {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
         height: "auto",
         width: "100%",
