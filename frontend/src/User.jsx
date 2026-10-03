@@ -85,7 +85,14 @@ export default function User() {
         pt: 2,
       }}
     >
-      <Box sx={{ display: "flex", gap: 1 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          alignItems: { xs: "center", md: "normal" },
+          gap: 1,
+        }}
+      >
         <Box
           sx={{
             bgcolor: "custom.label",
@@ -94,7 +101,7 @@ export default function User() {
             alignItems: "center",
             justifyContent: "center",
             height: "100%",
-            width: "280px",
+            width: { xs: "100%", md: "280px" },
             p: 2,
             gap: 0.5,
             borderRadius: 2,
@@ -110,7 +117,13 @@ export default function User() {
           </Typography>
           <Typography>@{user.username}</Typography>
           <Box
-            sx={{ display: "flex", flexDirection: "column", mt: 0.5, gap: 1 }}
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              mt: 0.5,
+              gap: 1,
+              width: { xs: "100%", md: "250px" },
+            }}
           >
             <Button
               component="a"
@@ -118,7 +131,7 @@ export default function User() {
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
-              sx={{ bgcolor: "custom.discord", height: 34, width: "250px" }}
+              sx={{ bgcolor: "custom.discord", height: 34, width: "100%" }}
             >
               View Discord Profile (Web)
             </Button>
@@ -128,7 +141,7 @@ export default function User() {
               target="_blank"
               rel="noopener noreferrer"
               variant="contained"
-              sx={{ bgcolor: "custom.discord", height: 34, width: "250px" }}
+              sx={{ bgcolor: "custom.discord", height: 34, width: "100%" }}
             >
               View Discord Profile (App)
             </Button>
@@ -138,9 +151,9 @@ export default function User() {
           sx={{
             bgcolor: "custom.dark",
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            width: "1200px",
-            gap: 1,
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+            width: { xs: "100%", md: "1200px" },
+            gap: { xs: 0.5, md: 1 },
           }}
         >
           <ListingContainer
@@ -148,24 +161,28 @@ export default function User() {
             listings={sellListings}
             headerColor="custom.blue"
             showActions={false}
+            addEllipses={true}
           />
           <ListingContainer
             title="Looking For"
             listings={buyListings}
             headerColor="custom.green"
             showActions={false}
+            addEllipses={true}
           />
           <ListingContainer
             title="Sold"
             listings={soldListings}
             headerColor="custom.blue"
             showActions={false}
+            addEllipses={true}
           />
           <ListingContainer
             title="Bought"
             listings={boughtListings}
             headerColor="custom.green"
             showActions={false}
+            addEllipses={true}
           />
         </Box>
       </Box>

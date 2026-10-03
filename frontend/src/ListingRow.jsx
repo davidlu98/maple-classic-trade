@@ -20,7 +20,7 @@ export default function ListingRow({
   onFulfill,
   onEdit,
   onDelete,
-  isHomePage,
+  addEllipses,
 }) {
   const [anchorEl, setAnchorEl] = useState(null);
 
@@ -150,7 +150,7 @@ export default function ListingRow({
               <ItemStatDifferencesDisplay
                 statDifferences={listing.statDifferences}
                 scrollsUsed={scrollsUsed}
-                isHomePage={isHomePage}
+                addEllipses={addEllipses}
               />
             ) : isFulfilled ? null : (
               <ItemQuantityDisplay quantity={listing.quantity} />

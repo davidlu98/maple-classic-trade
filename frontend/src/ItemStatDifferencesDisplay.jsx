@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 export default function ItemStatDifferencesDisplay({
   statDifferences,
   scrollsUsed,
-  isHomePage,
+  addEllipses,
 }) {
   if (!statDifferences) {
     return null;
@@ -21,7 +21,7 @@ export default function ItemStatDifferencesDisplay({
         </Box>
       ) : null}
 
-      {isHomePage ? (
+      {addEllipses ? (
         <>
           {visibleStats.map((stat) => {
             const isPositive = stat.value > 0;

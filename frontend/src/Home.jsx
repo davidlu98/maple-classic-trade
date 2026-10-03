@@ -88,7 +88,7 @@ export default function Home({ items }) {
             headerColor="custom.blue"
             showActions={false}
             getTimeAgo={true}
-            isHomePage={true}
+            addEllipses={true}
           />
           <ListingContainer
             title="Looking For"
@@ -96,7 +96,7 @@ export default function Home({ items }) {
             headerColor="custom.green"
             showActions={false}
             getTimeAgo={true}
-            isHomePage={true}
+            addEllipses={true}
           />
         </Box>
       </Box>
