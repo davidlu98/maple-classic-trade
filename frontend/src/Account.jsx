@@ -173,7 +173,11 @@ export default function Account({ user }) {
             <Typography sx={{ fontSize: { xs: "20px", md: "16px" } }}>
               {sellListings.length + buyListings.length} / 20
             </Typography>
-            <Tooltip title="You can have a maximum of 20 active listings. Selling and Looking For each contribute 1 towards the maximum count.">
+            <Tooltip
+              title="You can have a maximum of 20 active listings. Selling and Looking For each contribute 1 towards the maximum count."
+              enterTouchDelay={0}
+              leaveTouchDelay={3000}
+            >
               <InfoIcon sx={{ fontSize: { xs: "large", md: "medium" } }} />
             </Tooltip>
           </Box>
