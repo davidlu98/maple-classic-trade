@@ -266,7 +266,7 @@ export default function List({ items, fetchUser }) {
           flexDirection: "column",
           alignItems: "center",
           width: "100%",
-          maxWidth: { xs: "100%", md: 530 },
+          maxWidth: { xs: "100%", md: "530px" },
           boxSizing: "border-box",
           p: 2,
           gap: 2,

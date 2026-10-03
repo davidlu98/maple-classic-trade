@@ -277,10 +277,9 @@ export default function EditListing() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
         minHeight: "100vh",
-        height: "auto",
+        width: "100%",
         pt: 2,
       }}
     >
@@ -290,6 +289,9 @@ export default function EditListing() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          width: "100%",
+          maxWidth: { xs: "100%", md: "530px" },
+          boxSizing: "border-box",
           p: 2,
           gap: 2,
           borderRadius: 2,
@@ -316,6 +318,7 @@ export default function EditListing() {
           Edit Listing
         </Button>
       </Box>
+
       <Snackbar
         open={!!errorMessage}
         autoHideDuration={6000}
