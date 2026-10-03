@@ -40,6 +40,7 @@ export default function EquipmentFilters({ filters, onFilterChange }) {
         sx={{
           display: "grid",
           gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+          gap: { xs: 0.3, md: 0 },
           columnGap: 0.5,
         }}
       >
