@@ -72,10 +72,10 @@ export default function Listing() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
         minHeight: "100vh",
         height: "auto",
+        width: "100%",
         pt: 2,
       }}
     >
@@ -95,7 +95,7 @@ export default function Listing() {
             alignItems: "center",
             justifyContent: "center",
             height: "100%",
-            width: { xs: "108%", md: "280px" },
+            width: { xs: "110%", md: "280px" },
             p: 2,
             gap: 0.5,
             borderRadius: 2,
@@ -163,7 +163,7 @@ export default function Listing() {
             display: "flex",
             flexDirection: "column",
             bgcolor: "black",
-            width: { xs: "108%", md: "500px" },
+            width: { xs: "110%", md: "500px" },
             p: 2,
             gap: 1,
             borderRadius: 2,
