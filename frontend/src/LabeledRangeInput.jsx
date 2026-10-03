@@ -52,8 +52,10 @@ export default function LabeledRangeInput({
         placeholder="MIN"
         value={value.min}
         onChange={handleChange("min")}
-        inputProps={{
-          inputMode: "numeric",
+        slotProps={{
+          htmlInput: {
+            inputMode: "numeric",
+          },
         }}
         sx={textFieldSx}
       />
@@ -62,8 +64,10 @@ export default function LabeledRangeInput({
         placeholder="MAX"
         value={value.max}
         onChange={handleChange("max")}
-        inputProps={{
-          inputMode: "numeric",
+        slotProps={{
+          htmlInput: {
+            inputMode: "numeric",
+          },
         }}
         sx={{ ...textFieldSx, ml: 0.5 }}
       />
