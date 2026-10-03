@@ -83,8 +83,9 @@ export default function Listing() {
         sx={{
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
-          alignItems: { xs: "center", md: "normal" },
+          alignItems: { xs: "stretch", md: "normal" },
           gap: 1,
+          width: { xs: "100%", md: "auto" },
         }}
       >
         <Box
@@ -95,7 +96,7 @@ export default function Listing() {
             alignItems: "center",
             justifyContent: "center",
             height: "100%",
-            width: { xs: "110%", md: "280px" },
+            width: { xs: "100%", md: "280px" },
             p: 2,
             gap: 0.5,
             borderRadius: 2,
@@ -163,7 +164,7 @@ export default function Listing() {
             display: "flex",
             flexDirection: "column",
             bgcolor: "black",
-            width: { xs: "110%", md: "500px" },
+            width: { xs: "100%", md: "500px" },
             p: 2,
             gap: 1,
             borderRadius: 2,
