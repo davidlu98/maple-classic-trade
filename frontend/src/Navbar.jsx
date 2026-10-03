@@ -129,11 +129,15 @@ export default function Navbar({ user, logout }) {
                   anchorEl={anchorEl}
                   open={menuOpen}
                   onClose={handleMenuClose}
+                  sx={{
+                    "& .MuiMenu-list": { py: 0 },
+                  }}
                 >
                   <MenuItem
                     component={Link}
                     to="/list"
                     onClick={handleMenuClose}
+                    sx={{ bgcolor: "#16a34a" }}
                   >
                     List
                   </MenuItem>
@@ -142,11 +146,17 @@ export default function Navbar({ user, logout }) {
                     component={Link}
                     to="/account"
                     onClick={handleMenuClose}
+                    sx={{ bgcolor: "custom.gray" }}
                   >
                     Account
                   </MenuItem>
 
-                  <MenuItem onClick={handleLogout}>Logout</MenuItem>
+                  <MenuItem
+                    onClick={handleLogout}
+                    sx={{ bgcolor: "custom.discord" }}
+                  >
+                    Logout
+                  </MenuItem>
                 </Menu>
               </Box>
             </>
