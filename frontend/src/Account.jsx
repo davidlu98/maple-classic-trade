@@ -4,7 +4,19 @@ import axios from "axios";
 
 import ListingContainer from "./ListingContainer";
 
-import { Alert, Avatar, Box, Snackbar, Typography } from "@mui/material";
+import {
+  Alert,
+  Avatar,
+  Box,
+  Button,
+  Dialog,
+  DialogTitle,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  Snackbar,
+  Typography,
+} from "@mui/material";
 import Tooltip from "@mui/material/Tooltip";
 import InfoIcon from "@mui/icons-material/Info";
 
@@ -13,23 +25,34 @@ const API_URL = import.meta.env.VITE_BACKEND_URL;
 export default function Account({ user }) {
   const navigate = useNavigate();
 
+  const [openDialogue, setOpenDialogue] = useState(false);
+  const [listingToDelete, setListingToDelete] = useState(null);
+
   const [listings, setListings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleDelete = async (listingId) => {
+  const requestDelete = async (listingId) => {
+    setListingToDelete(listingId);
+    setOpenDialogue(true);
+  };
+
+  const confirmDelete = async () => {
     const token = window.localStorage.getItem("token");
 
-    if (!token) return;
+    if (!token || !listingToDelete) return;
 
     try {
-      await axios.delete(`${API_URL}/listings/${listingId}`, {
+      await axios.delete(`${API_URL}/listings/${listingToDelete}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
       setListings((currentListings) =>
-        currentListings.filter((listing) => listing.id !== listingId),
+        currentListings.filter((listing) => listing.id !== listingToDelete),
       );
+
+      setOpenDialogue(false);
+      setListingToDelete(null);
     } catch (error) {
       setErrorMessage("Failed to delete listing");
     }
@@ -182,6 +205,45 @@ export default function Account({ user }) {
             </Tooltip>
           </Box>
         </Box>
+        <Dialog
+          open={openDialogue}
+          onClose={() => {
+            setOpenDialogue(false);
+            setListingToDelete(null);
+          }}
+        >
+          <DialogTitle sx={{ pb: 1 }}>
+            <Typography sx={{ fontWeight: "bold", fontSize: "18px" }}>
+              Confirm Deletion
+            </Typography>
+          </DialogTitle>
+
+          <DialogContent sx={{ pb: 1 }}>
+            <DialogContentText>
+              Do you want to delete this listing?
+            </DialogContentText>
+          </DialogContent>
+
+          <DialogActions sx={{ px: 3 }}>
+            <Button
+              variant="contained"
+              onClick={() => {
+                setOpenDialogue(false);
+                setListingToDelete(null);
+              }}
+              sx={{ bgcolor: "custom.gray" }}
+            >
+              Cancel
+            </Button>
+            <Button
+              variant="contained"
+              onClick={confirmDelete}
+              sx={{ bgcolor: "custom.red" }}
+            >
+              Delete
+            </Button>
+          </DialogActions>
+        </Dialog>
         <Box
           sx={{
             bgcolor: "custom.dark",
@@ -198,7 +260,7 @@ export default function Account({ user }) {
             showActions={true}
             onFulfill={handleFulfill}
             onEdit={handleEdit}
-            onDelete={handleDelete}
+            onDelete={requestDelete}
             addEllipses={true}
           />
           <ListingContainer
@@ -208,7 +270,7 @@ export default function Account({ user }) {
             showActions={true}
             onFulfill={handleFulfill}
             onEdit={handleEdit}
-            onDelete={handleDelete}
+            onDelete={requestDelete}
             addEllipses={true}
           />
           <ListingContainer
@@ -217,7 +279,7 @@ export default function Account({ user }) {
             headerColor="custom.blue"
             showActions={(listing) => listing.status !== "FULFILLED"}
             onFulfill={handleFulfill}
-            onDelete={handleDelete}
+            onDelete={requestDelete}
             addEllipses={true}
           />
           <ListingContainer
@@ -226,7 +288,7 @@ export default function Account({ user }) {
             headerColor="custom.green"
             showActions={(listing) => listing.status !== "FULFILLED"}
             onFulfill={handleFulfill}
-            onDelete={handleDelete}
+            onDelete={requestDelete}
             addEllipses={true}
           />
         </Box>
