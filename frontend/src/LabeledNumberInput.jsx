@@ -43,6 +43,11 @@ export default function LabeledNumberInput({
             onChange(value);
           }
         }}
+        slotProps={{
+          htmlInput: {
+            inputMode: "numeric",
+          },
+        }}
         sx={{
           bgcolor: "custom.filter",
 
