@@ -253,28 +253,27 @@ export default function List({ items, fetchUser }) {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
-        minHeight: "100vh",
-        height: "auto",
+        height: "100vh",
+        width: "100%",
         pt: 2,
+        gap: 2,
       }}
     >
       <Box
         sx={{
-          bgcolor: "black",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          bgcolor: "black",
           p: 2,
-          gap: 2,
           borderRadius: 2,
+          gap: 2,
         }}
       >
         <SearchByTerm
           items={items}
           onItemClick={handleItemClick}
-          containerSize="500px"
           selectedItemId={selectedItem?.id}
           clearOnSelect
         />
@@ -299,6 +298,7 @@ export default function List({ items, fetchUser }) {
           Create Listing
         </Button>
       </Box>
+
       <Snackbar
         open={!!errorMessage}
         autoHideDuration={6000}

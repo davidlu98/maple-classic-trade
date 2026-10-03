@@ -72,7 +72,7 @@ export default function ListingRequirements({
   return (
     <Box
       sx={{
-        width: "500px",
+        width: { xs: "100%", md: "500px" },
       }}
     >
       <Box sx={{ display: "flex", flexDirection: "column", gap: 0.3 }}>

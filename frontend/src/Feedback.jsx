@@ -68,7 +68,6 @@ export default function Feedback() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-start",
         alignItems: "center",
         height: "auto",
         pt: 2,
