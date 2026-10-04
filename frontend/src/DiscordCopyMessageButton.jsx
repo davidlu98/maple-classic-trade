@@ -19,19 +19,19 @@ export default function DiscordCopyMessageButton({
   const fullMessage =
     listingType === "SELL"
       ? isEquipment
-        ? `@${discordUsername} Hello there! I would like to purchase the ${itemName} you listed for ${itemPrice} Mesos.\nView item at ${listingLink}`
+        ? `@${discordUsername} Hello there! I would like to buy the "${itemName}" you listed for ${itemPrice} Mesos.\nView item at ${listingLink}`
         : quantity === ""
-          ? `@${discordUsername} Hello there! I would like to purchase the ${itemName} you listed for ${itemPrice} Mesos.\n View the item at ${listingLink}`
-          : quantity === "1"
-            ? `@${discordUsername} Hello there! I would like to purchase 1 ${itemName} you listed for ${itemPrice} Mesos.\n View the item at ${listingLink}`
-            : `@${discordUsername} Hello there! I would like to purchase ${quantity} of the ${itemName}s you listed for ${itemPrice} Mesos each for a total of ${quantity * itemPrice} Mesos.\n View the item at ${listingLink}`
+          ? `@${discordUsername} Hello there! I would like to buy the "${itemName}" you listed for ${itemPrice} Mesos.\n View the item at ${listingLink}`
+          : Number(quantity) === 1
+            ? `@${discordUsername} Hello there! I would like to buy 1 "${itemName}" you listed for ${itemPrice} Mesos.\n View the item at ${listingLink}`
+            : `@${discordUsername} Hello there! I would like to buy ${quantity} "${itemName}" you listed for ${itemPrice} Mesos each for a total of ${quantity * itemPrice} Mesos.\n View the item at ${listingLink}`
       : isEquipment
-        ? `@${discordUsername} Hello there! I would like to sell the ${itemName} you are looking to buy for ${itemPrice} Mesos.\nView item at ${listingLink}`
+        ? `@${discordUsername} Hello there! I would like to sell the "${itemName}" you are looking to buy for ${itemPrice} Mesos.\nView item at ${listingLink}`
         : quantity === ""
-          ? `@${discordUsername} Hello there! I would like to sell the ${itemName} you are looking to buy for ${itemPrice} Mesos.\n View the item at ${listingLink}`
-          : quantity === "1"
-            ? `@${discordUsername} Hello there! I would like to sell 1 ${itemName} you are looking to buy for ${itemPrice} Mesos.\n View the item at ${listingLink}`
-            : `@${discordUsername} Hello there! I would like to sell ${quantity} of the ${itemName}s you are looking to buy for ${itemPrice} Mesos each for a total of ${quantity * itemPrice} Mesos.\n View the item at ${listingLink}`;
+          ? `@${discordUsername} Hello there! I would like to sell the "${itemName}" you are looking to buy for ${itemPrice} Mesos.\n View the item at ${listingLink}`
+          : Number(quantity) === 1
+            ? `@${discordUsername} Hello there! I would like to sell 1 "${itemName}" you are looking to buy for ${itemPrice} Mesos.\n View the item at ${listingLink}`
+            : `@${discordUsername} Hello there! I would like to sell ${quantity} "${itemName}" you are looking to buy for ${itemPrice} Mesos each for a total of ${quantity * itemPrice} Mesos.\n View the item at ${listingLink}`;
 
   const handleCopy = async () => {
     try {
