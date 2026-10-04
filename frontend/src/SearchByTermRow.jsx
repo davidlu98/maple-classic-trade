@@ -1,6 +1,8 @@
-import { ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
+import { Box, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 
 export default function SearchByTermRow({ item, onItemClick }) {
+  const isCash = item.category === "Cash";
+
   return (
     <ListItemButton
       onClick={() => {
@@ -10,6 +12,7 @@ export default function SearchByTermRow({ item, onItemClick }) {
     >
       <ListItemIcon
         sx={{
+          position: "relative",
           bgcolor: "custom.filter",
           display: "flex",
           alignItems: "center",
@@ -23,7 +26,22 @@ export default function SearchByTermRow({ item, onItemClick }) {
         }}
       >
         <img src={item.iconUrl} alt={item.name} />
+        {isCash && (
+          <Box
+            component="img"
+            src="/cash_icon.png"
+            alt=""
+            sx={{
+              position: "absolute",
+              width: 12,
+              height: 12,
+              right: 0,
+              bottom: 2,
+            }}
+          />
+        )}
       </ListItemIcon>
+
       <ListItemText primary={item.name} sx={{ color: "white" }} />
     </ListItemButton>
   );

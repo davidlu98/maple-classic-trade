@@ -418,8 +418,6 @@ router.patch("/:id/fulfill", authMiddleware, async (req, res, next) => {
           userId,
         },
         select: {
-          // id: true,
-          // userId: true,
           status: true,
         },
       });

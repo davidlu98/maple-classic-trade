@@ -33,6 +33,7 @@ export default function ListingRow({
   const [anchorEl, setAnchorEl] = useState(null);
 
   const isEquipment = listing.item.category === "Equipment";
+  const isCash = listing.item.category === "Cash";
 
   const { totalUpgradeCount } = listing.item;
   const { remainingUpgradeSlots } = listing;
@@ -129,6 +130,8 @@ export default function ListingRow({
               }
               triangleColor={statDifferenceTriangleColor}
               triangleSize="11px"
+              isCash={isCash}
+              cashIconDetails={{ width: 13, height: 13, right: 4, bottom: 5 }}
             />
 
             <Popper

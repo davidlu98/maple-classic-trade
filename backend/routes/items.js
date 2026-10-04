@@ -43,7 +43,7 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-// Return lightweight item data used for the Search component (id, name, iconUrl)
+// Return lightweight item data used for the Search component (id, name, iconUrl, category)
 router.get("/search", async (req, res, next) => {
   try {
     const items = await prisma.item.findMany({
@@ -51,6 +51,7 @@ router.get("/search", async (req, res, next) => {
         id: true,
         name: true,
         iconUrl: true,
+        category: true,
       },
     });
     res.status(200).json(items);

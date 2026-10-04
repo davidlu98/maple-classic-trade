@@ -20,10 +20,4 @@ createRoot(document.getElementById("root")).render(
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode>,
-  // // Remove comment to test production
-  // <BrowserRouter>
-  //   <ThemeProvider theme={theme}>
-  //     <App />
-  //   </ThemeProvider>
-  // </BrowserRouter>,
 );

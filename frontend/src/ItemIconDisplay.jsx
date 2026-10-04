@@ -8,6 +8,8 @@ export default function ItemIconDisplay({
   showTriangle = false,
   triangleColor,
   triangleSize = "20px",
+  isCash = false,
+  cashIconDetails = { width: 24, height: 24, right: 10, bottom: 10 },
 }) {
   return (
     <Box
@@ -53,6 +55,23 @@ export default function ItemIconDisplay({
         />
       ) : (
         <Skeleton variant="rectangular" width={imageSize} height={imageSize} />
+      )}
+
+      {isCash && (
+        <Box
+          component="img"
+          src="/cash_icon.png"
+          alt=""
+          sx={{
+            position: "absolute",
+            width: cashIconDetails.width,
+            height: cashIconDetails.height,
+            right: cashIconDetails.right,
+            bottom: cashIconDetails.bottom,
+            objectFit: "contain",
+            pointerEvents: "none",
+          }}
+        />
       )}
     </Box>
   );

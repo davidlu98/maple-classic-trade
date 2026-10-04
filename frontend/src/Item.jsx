@@ -32,6 +32,7 @@ export default function Item({
     );
 
   const isEquipment = item.category === "Equipment";
+  const isCash = item.category === "Cash";
 
   const scrollsUsed =
     isEquipment && listing
@@ -81,6 +82,7 @@ export default function Item({
           iconUrl={item.iconUrl}
           showTriangle={isEquipment ? (scrollsUsed > 0 ? true : false) : false}
           triangleColor={statDifferenceTriangleColor}
+          isCash={isCash}
         />
         {isEquipment ? (
           <ItemRequiredStats item={item} />
