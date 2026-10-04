@@ -25,7 +25,7 @@ export default function Listing() {
   const { listingId } = useParams();
 
   const [listing, setListing] = useState(null);
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState("1");
   const [loading, setLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
