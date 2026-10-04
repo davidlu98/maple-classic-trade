@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 3000;
 
 const allowedOrigins = [
   "http://localhost:5173", // Local frontend
-  "https://mapleclassictrade.onrender.com", // Deployed frontend
+  "https://mapleclassictrade.onrender.com", // Deployed on Render
+  "https://mapleclassictrade.com", // Custom domain
 ];
 
 app.use(
