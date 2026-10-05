@@ -6,7 +6,7 @@ import SearchByTerm from "./SearchByTerm";
 import SearchByType from "./SearchByType";
 import ListingContainer from "./ListingContainer";
 
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 
 const MAX_LISTINGS_SHOWN = 6;
 
@@ -56,6 +56,36 @@ export default function Home({ items }) {
         gap: { xs: 1, md: 3 },
       }}
     >
+      <Box
+        sx={{
+          bgcolor: "custom.filter",
+          p: 2,
+          borderRadius: 2,
+          display: "flex",
+          flexDirection: "column",
+          gap: 1,
+        }}
+      >
+        <Box>
+          <Typography sx={{ textAlign: "center" }}>
+            How to Get Started
+          </Typography>
+          <Typography>1. Join the MapleClassicTrade Discord server.</Typography>
+          <Typography>2. Turn on DM from server members.</Typography>
+          <Typography>3. You are ready to go!</Typography>
+        </Box>
+        <Button
+          component="a"
+          href="https://discord.gg/DGfSkuMJHz"
+          target="_blank"
+          rel="noopener noreferrer"
+          color="inherit"
+          sx={{ bgcolor: "custom.discord" }}
+        >
+          Join Discord
+        </Button>
+      </Box>
+
       <SearchByTerm items={items} onItemClick={handleItemClick} />
       <SearchByType />
 
