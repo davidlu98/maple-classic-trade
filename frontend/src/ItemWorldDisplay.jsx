@@ -7,7 +7,7 @@ export default function ItemWorldDisplay({ world, fontSize = "14px" }) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <Box sx={{ bgcolor: "custom.gray", borderRadius: 2, px: 0.4 }}>
+      <Box sx={{ bgcolor: "custom.green", borderRadius: 2, px: 0.4 }}>
         <Typography
           sx={{
             fontSize: fontSize,
