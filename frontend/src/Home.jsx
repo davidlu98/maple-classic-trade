@@ -76,7 +76,7 @@ export default function Home({ items }) {
         </Box>
         <Button
           component="a"
-          href="https://discord.gg/DGfSkuMJHz"
+          href="https://discord.gg/HtUQWZTBp7"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
