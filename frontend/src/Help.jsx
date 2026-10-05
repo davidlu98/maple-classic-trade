@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
 
 export default function Help() {
   return (
@@ -30,7 +30,25 @@ export default function Help() {
           component="ol"
           sx={{ pl: 3, "& li": { mb: 1, pl: 1, lineHeight: 1.6 } }}
         >
-          <li>Login using Discord.</li>
+          <li>
+            Join the MapleClassicTrade Discord server{" "}
+            <Link
+              href="https://discord.gg/DGfSkuMJHz"
+              color="inherit"
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="none"
+              sx={{
+                "&:hover": {
+                  color: "text.primary",
+                  textDecoration: "underline",
+                },
+              }}
+            >
+              here.
+            </Link>
+          </li>
+          <li>Login to the website using Discord.</li>
           <li>Search for listings, or create your own.</li>
           <li>
             When you find a listing for an item you want to buy or sell, click
