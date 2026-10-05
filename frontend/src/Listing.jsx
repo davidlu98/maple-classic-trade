@@ -5,6 +5,7 @@ import axios from "axios";
 import Item from "./Item";
 import ItemPriceDisplay from "./ItemPriceDisplay";
 import ItemQuantityDisplay from "./ItemQuantityDisplay";
+import ItemWorldDisplay from "./ItemWorldDisplay";
 import ListingUpdatedAtDisplay from "./ListingUpdatedAtDisplay";
 import LabeledNumberInput from "./LabeledNumberInput";
 import DiscordCopyMessageButton from "./DiscordCopyMessageButton";
@@ -232,6 +233,7 @@ export default function Listing() {
                     fontSize="15px"
                   />
                 ) : null}
+                <ItemWorldDisplay world={listing.world.name} />
               </Box>
               <ListingUpdatedAtDisplay updatedAt={listing.updatedAt} />
             </Box>

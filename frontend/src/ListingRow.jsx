@@ -4,8 +4,9 @@ import Item from "./Item";
 import ItemIconDisplay from "./ItemIconDisplay";
 import ItemNameDisplay from "./ItemNameDisplay";
 import ItemStatDifferencesDisplay from "./ItemStatDifferencesDisplay";
-import ItemPriceDisplay from "./ItemPriceDisplay";
 import ItemQuantityDisplay from "./ItemQuantityDisplay";
+import ItemWorldDisplay from "./ItemWorldDisplay";
+import ItemPriceDisplay from "./ItemPriceDisplay";
 import ListingUpdatedAtDisplay from "./ListingUpdatedAtDisplay";
 import UserDisplay from "./UserDisplay";
 
@@ -159,7 +160,8 @@ export default function ListingRow({
           </Box>
         </Box>
         <Box>
-          <Box sx={{ minHeight: "21px" }}>
+          <Box sx={{ minHeight: "21px", display: "flex", gap: 0.5 }}>
+            <ItemWorldDisplay world={listing.world.name} />
             {isEquipment ? (
               <ItemStatDifferencesDisplay
                 statDifferences={listing.statDifferences}
