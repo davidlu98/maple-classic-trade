@@ -7,10 +7,10 @@ export default function LabeledRangeInput({
   gridTemplateColumns = "58% 21% 21%",
 }) {
   const handleChange = (field) => (e) => {
-    const value = e.target.value;
+    const newValue = e.target.value;
 
-    if (/^\d*$/.test(value)) {
-      onChange({ ...value, [field]: value });
+    if (/^\d*$/.test(newValue)) {
+      onChange({ ...value, [field]: newValue });
     }
   };
 
