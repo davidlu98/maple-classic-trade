@@ -59,10 +59,10 @@ export default function Home({ items }) {
       <Box
         sx={{
           bgcolor: "custom.filter",
-          p: 2,
-          borderRadius: 2,
           display: "flex",
           flexDirection: "column",
+          p: 2,
+          borderRadius: 2,
           gap: 1,
         }}
       >
@@ -74,9 +74,10 @@ export default function Home({ items }) {
           <Typography>2. Turn on DM from server members.</Typography>
           <Typography>3. You are ready to go!</Typography>
         </Box>
+
         <Button
           component="a"
-          href="https://discord.gg/HtUQWZTBp7"
+          href="https://discord.gg/DGfSkuMJHz"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
