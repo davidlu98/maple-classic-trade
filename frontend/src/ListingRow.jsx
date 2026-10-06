@@ -161,7 +161,7 @@ export default function ListingRow({
         </Box>
         <Box>
           <Box sx={{ minHeight: "21px", display: "flex", gap: 0.5 }}>
-            <ItemWorldDisplay world={listing.world.name} />
+            {/* <ItemWorldDisplay world={listing.world.name} /> */}
             {isEquipment ? (
               <ItemStatDifferencesDisplay
                 statDifferences={listing.statDifferences}
