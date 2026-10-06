@@ -8,6 +8,9 @@
       "stats": { "tuc": 7, "attackSpeed": 4, "incPAD": 17 },
       "req_job_label": "All",
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -25,6 +28,9 @@
       "req_job_label": "All",
       "price": 1500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -44,6 +50,9 @@
       "req_job_label": "Warrior",
       "price": 2500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -61,6 +70,9 @@
       "req_job_label": "All",
       "price": 2500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -80,6 +92,9 @@
       "req_job_label": "Warrior",
       "price": 3500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -99,6 +114,9 @@
       "req_job_label": "Warrior/Thief",
       "price": 3500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -118,6 +136,9 @@
       "req_job_label": "Warrior/Thief",
       "price": 4500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -135,6 +156,9 @@
       "req_job_label": "All",
       "price": 4900,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -154,6 +178,9 @@
       "req_job_label": "Warrior",
       "price": 5500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -165,6 +192,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -184,6 +214,9 @@
       "req_job_label": "Warrior",
       "price": 7500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -201,6 +234,9 @@
       "req_job_label": "All",
       "price": 7500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -220,6 +256,9 @@
       "req_job_label": "Warrior",
       "price": 9500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -237,6 +276,9 @@
       "req_job_label": "All",
       "price": 9500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -256,6 +298,9 @@
       "req_job_label": "Warrior",
       "price": 11500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -275,6 +320,9 @@
       "req_job_label": "Warrior",
       "price": 13500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -291,6 +339,9 @@
       },
       "req_job_label": "All",
       "weapon_type": "1H Sword",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -310,6 +361,9 @@
       "req_job_label": "Warrior",
       "price": 17500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -329,7 +383,33 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
+    },
+    {
+      "id": 1302019,
+      "name": "Pumpkin Basket",
+      "category": "Equipment",
+      "sub_category": "Weapon",
+      "stats": {
+        "incSTR": 1,
+        "incDEX": 1,
+        "incINT": 1,
+        "incLUK": 1,
+        "incSpeed": 8,
+        "tuc": 7,
+        "attackSpeed": 3,
+        "incPAD": 24
+      },
+      "req_job_label": "All",
+      "price": 1,
+      "weapon_type": "1H Sword",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
+      "attack_speed_label": "Faster"
     },
     {
       "id": 1312000,
@@ -339,6 +419,9 @@
       "stats": { "tuc": 7, "attackSpeed": 4, "incPAD": 17 },
       "req_job_label": "All",
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -356,6 +439,9 @@
       "req_job_label": "All",
       "price": 1500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -375,6 +461,9 @@
       "req_job_label": "Warrior",
       "price": 2500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -392,6 +481,9 @@
       "req_job_label": "All",
       "price": 2500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -411,6 +503,9 @@
       "req_job_label": "Warrior",
       "price": 4500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -430,6 +525,9 @@
       "req_job_label": "Warrior",
       "price": 5500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -449,6 +547,9 @@
       "req_job_label": "Warrior",
       "price": 7500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -468,6 +569,9 @@
       "req_job_label": "Warrior",
       "price": 9500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -487,6 +591,9 @@
       "req_job_label": "Warrior",
       "price": 13500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -506,6 +613,9 @@
       "req_job_label": "Warrior",
       "price": 17500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -525,6 +635,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "1H Axe",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -535,6 +648,9 @@
       "stats": { "tuc": 7, "attackSpeed": 5, "incPAD": 19 },
       "req_job_label": "All",
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -546,6 +662,9 @@
       "req_job_label": "All",
       "price": 1500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -563,6 +682,9 @@
       "req_job_label": "All",
       "price": 1900,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -581,6 +703,9 @@
       "req_job_label": "Warrior/Mage",
       "price": 2500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -598,6 +723,9 @@
       "req_job_label": "All",
       "price": 2500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -615,6 +743,9 @@
       "req_job_label": "All",
       "price": 2900,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -634,6 +765,9 @@
       "req_job_label": "Warrior/Thief",
       "price": 3100,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -651,6 +785,9 @@
       "req_job_label": "All",
       "price": 3500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -669,6 +806,9 @@
       "req_job_label": "Warrior/Mage",
       "price": 3500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -688,6 +828,9 @@
       "req_job_label": "Warrior/Thief",
       "price": 3900,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -705,6 +848,9 @@
       "req_job_label": "All",
       "price": 4500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -723,6 +869,9 @@
       "req_job_label": "Warrior/Mage",
       "price": 4500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -744,6 +893,9 @@
       "req_job_label": "All",
       "price": 5500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -763,6 +915,9 @@
       "req_job_label": "Warrior",
       "price": 5500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -780,6 +935,9 @@
       "req_job_label": "All",
       "price": 5500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -799,6 +957,9 @@
       "req_job_label": "Warrior",
       "price": 7500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -818,6 +979,9 @@
       "req_job_label": "Warrior",
       "price": 9500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -837,6 +1001,9 @@
       "req_job_label": "Warrior",
       "price": 13500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -848,6 +1015,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -866,6 +1036,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -885,6 +1058,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -903,6 +1079,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -921,6 +1100,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -939,6 +1121,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -958,6 +1143,9 @@
       "req_job_label": "Warrior",
       "price": 17500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -977,6 +1165,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Fast"
     },
     {
@@ -988,6 +1179,9 @@
       "req_job_label": "All",
       "price": 1,
       "weapon_type": "1H Blunt Weapon",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Faster"
     },
     {
@@ -999,6 +1193,9 @@
       "req_job_label": "All",
       "price": 250,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -1010,6 +1207,9 @@
       "req_job_label": "All",
       "price": 750,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Faster"
     },
     {
@@ -1028,6 +1228,9 @@
       "req_job_label": "Thief",
       "price": 1500,
       "weapon_type": "Dagger",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -1047,6 +1250,9 @@
       "req_job_label": "Warrior/Thief",
       "price": 2500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Faster"
     },
     {
@@ -1056,17 +1262,20 @@
       "sub_category": "Weapon",
       "stats": {
         "reqLevel": 17,
-        "reqJob": 8,
-        "reqDEX": 11,
+        "reqJob": 9,
+        "reqSTR": 11,
         "reqLUK": 31,
         "tuc": 7,
-        "attackSpeed": 4,
-        "incPAD": 35
+        "attackSpeed": 3,
+        "incPAD": 34
       },
-      "req_job_label": "Thief",
+      "req_job_label": "Warrior/Thief",
       "price": 2900,
       "weapon_type": "Dagger",
-      "attack_speed_label": "Fast"
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
+      "attack_speed_label": "Faster"
     },
     {
       "id": 1332005,
@@ -1075,17 +1284,20 @@
       "sub_category": "Weapon",
       "stats": {
         "reqLevel": 20,
-        "reqJob": 9,
+        "reqJob": 8,
         "reqDEX": 15,
         "reqLUK": 30,
         "tuc": 7,
-        "attackSpeed": 3,
-        "incPAD": 35
+        "attackSpeed": 4,
+        "incPAD": 38
       },
-      "req_job_label": "Warrior/Thief",
+      "req_job_label": "Thief",
       "price": 3500,
       "weapon_type": "Dagger",
-      "attack_speed_label": "Faster"
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
+      "attack_speed_label": "Fast"
     },
     {
       "id": 1332006,
@@ -1094,17 +1306,20 @@
       "sub_category": "Weapon",
       "stats": {
         "reqLevel": 22,
-        "reqJob": 8,
+        "reqJob": 9,
         "reqSTR": 17,
         "reqLUK": 44,
         "tuc": 7,
-        "attackSpeed": 4,
-        "incPAD": 40
+        "attackSpeed": 3,
+        "incPAD": 39
       },
-      "req_job_label": "Thief",
+      "req_job_label": "Warrior/Thief",
       "price": 3900,
       "weapon_type": "Dagger",
-      "attack_speed_label": "Fast"
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
+      "attack_speed_label": "Faster"
     },
     {
       "id": 1332007,
@@ -1113,17 +1328,20 @@
       "sub_category": "Weapon",
       "stats": {
         "reqLevel": 25,
-        "reqJob": 9,
-        "reqSTR": 20,
+        "reqJob": 8,
+        "reqDEX": 20,
         "reqLUK": 40,
         "tuc": 7,
-        "attackSpeed": 3,
+        "attackSpeed": 4,
         "incPAD": 40
       },
-      "req_job_label": "Warrior/Thief",
+      "req_job_label": "Thief",
       "price": 4500,
       "weapon_type": "Dagger",
-      "attack_speed_label": "Faster"
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
+      "attack_speed_label": "Fast"
     },
     {
       "id": 1332008,
@@ -1142,6 +1360,9 @@
       "req_job_label": "Thief",
       "price": 4900,
       "weapon_type": "Dagger",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -1156,11 +1377,14 @@
         "reqLUK": 60,
         "tuc": 7,
         "attackSpeed": 3,
-        "incPAD": 45
+        "incPAD": 47
       },
       "req_job_label": "Warrior/Thief",
       "price": 5500,
       "weapon_type": "Dagger",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Faster"
     },
     {
@@ -1180,6 +1404,9 @@
       "req_job_label": "Thief",
       "price": 5500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -1199,6 +1426,9 @@
       "req_job_label": "Thief",
       "price": 7500,
       "weapon_type": "Dagger",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -1218,6 +1448,9 @@
       "req_job_label": "Thief",
       "price": 9500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -1237,6 +1470,9 @@
       "req_job_label": "All",
       "price": 9500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Faster"
     },
     {
@@ -1246,17 +1482,20 @@
       "sub_category": "Weapon",
       "stats": {
         "reqLevel": 45,
-        "reqJob": 8,
+        "reqJob": 9,
         "reqSTR": 40,
         "reqLUK": 90,
         "tuc": 7,
-        "attackSpeed": 4,
-        "incPAD": 63
+        "attackSpeed": 3,
+        "incPAD": 62
       },
-      "req_job_label": "Thief",
+      "req_job_label": "Warrior/Thief",
       "price": 11500,
       "weapon_type": "Dagger",
-      "attack_speed_label": "Fast"
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
+      "attack_speed_label": "Faster"
     },
     {
       "id": 1332015,
@@ -1275,6 +1514,9 @@
       "req_job_label": "Thief",
       "price": 13500,
       "weapon_type": "Dagger",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -1289,11 +1531,14 @@
         "reqLUK": 100,
         "tuc": 7,
         "attackSpeed": 3,
-        "incPAD": 65
+        "incPAD": 67
       },
       "req_job_label": "Warrior/Thief",
       "price": 13500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Faster"
     },
     {
@@ -1311,6 +1556,9 @@
       },
       "req_job_label": "Thief",
       "weapon_type": "Dagger",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -1330,6 +1578,9 @@
       "req_job_label": "Thief",
       "price": 17500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -1344,11 +1595,14 @@
         "reqLUK": 120,
         "tuc": 7,
         "attackSpeed": 3,
-        "incPAD": 75
+        "incPAD": 77
       },
       "req_job_label": "Warrior/Thief",
       "price": 17500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Faster"
     },
     {
@@ -1368,6 +1622,9 @@
       "req_job_label": "Thief",
       "price": 21500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Fast"
     },
     {
@@ -1382,11 +1639,14 @@
         "reqLUK": 140,
         "tuc": 7,
         "attackSpeed": 3,
-        "incPAD": 85
+        "incPAD": 87
       },
       "req_job_label": "Warrior/Thief",
       "price": 21500,
       "weapon_type": "Dagger",
+      "after_image": "swordOS",
+      "swing_reach_px": 85,
+      "stab_reach_px": 74,
       "attack_speed_label": "Faster"
     },
     {
@@ -1405,6 +1665,9 @@
       "req_job_label": "All",
       "price": 1500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1423,6 +1686,9 @@
       "req_job_label": "All",
       "price": 2500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1442,6 +1708,9 @@
       "req_job_label": "All",
       "price": 3500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1462,6 +1731,9 @@
       "req_job_label": "Mage",
       "price": 4500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1482,6 +1754,9 @@
       "req_job_label": "Mage",
       "price": 5500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1502,6 +1777,9 @@
       "req_job_label": "Mage",
       "price": 7500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1522,6 +1800,9 @@
       "req_job_label": "Mage",
       "price": 9500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1542,6 +1823,9 @@
       "req_job_label": "Mage",
       "price": 13500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1559,6 +1843,9 @@
       },
       "req_job_label": "All",
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1579,6 +1866,9 @@
       "req_job_label": "Mage",
       "price": 17500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1599,6 +1889,9 @@
       "req_job_label": "Mage",
       "price": 21500,
       "weapon_type": "Wand",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Normal"
     },
     {
@@ -1619,6 +1912,9 @@
       "req_job_label": "Mage",
       "price": 1500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1640,6 +1936,9 @@
       "req_job_label": "Mage",
       "price": 2500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1661,6 +1960,9 @@
       "req_job_label": "Mage",
       "price": 2500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1682,6 +1984,9 @@
       "req_job_label": "Mage",
       "price": 3500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1703,6 +2008,9 @@
       "req_job_label": "Mage",
       "price": 4500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1724,6 +2032,9 @@
       "req_job_label": "Mage",
       "price": 11500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1745,6 +2056,9 @@
       "req_job_label": "Mage",
       "price": 15500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1766,6 +2080,9 @@
       "req_job_label": "Mage",
       "price": 19500,
       "weapon_type": "Staff",
+      "after_image": "mace",
+      "swing_reach_px": 77,
+      "stab_reach_px": 82,
       "attack_speed_label": "Slow"
     },
     {
@@ -1784,6 +2101,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 2500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1801,6 +2121,9 @@
       "req_job_label": "All",
       "price": 3500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1820,6 +2143,9 @@
       "req_job_label": "Warrior",
       "price": 4500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1839,6 +2165,9 @@
       "req_job_label": "Warrior",
       "price": 5500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1856,6 +2185,9 @@
       "req_job_label": "All",
       "price": 6500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1875,6 +2207,9 @@
       "req_job_label": "Warrior",
       "price": 6500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTL",
+      "swing_reach_px": 100,
+      "stab_reach_px": 110,
       "attack_speed_label": "Normal"
     },
     {
@@ -1894,6 +2229,9 @@
       "req_job_label": "Warrior",
       "price": 9000,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1913,6 +2251,9 @@
       "req_job_label": "Warrior",
       "price": 11500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -1932,6 +2273,9 @@
       "req_job_label": "Warrior",
       "price": 16500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTL",
+      "swing_reach_px": 100,
+      "stab_reach_px": 110,
       "attack_speed_label": "Normal"
     },
     {
@@ -1951,6 +2295,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTL",
+      "swing_reach_px": 100,
+      "stab_reach_px": 110,
       "attack_speed_label": "Normal"
     },
     {
@@ -1970,6 +2317,9 @@
       "req_job_label": "Warrior",
       "price": 26500,
       "weapon_type": "2H Sword",
+      "after_image": "swordTL",
+      "swing_reach_px": 100,
+      "stab_reach_px": 110,
       "attack_speed_label": "Normal"
     },
     {
@@ -1988,6 +2338,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 2500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2007,6 +2360,9 @@
       "req_job_label": "Warrior",
       "price": 4500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2026,6 +2382,9 @@
       "req_job_label": "Warrior/Thief",
       "price": 4500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Normal"
     },
     {
@@ -2045,6 +2404,9 @@
       "req_job_label": "Warrior",
       "price": 5500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2064,6 +2426,9 @@
       "req_job_label": "Warrior",
       "price": 6500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2083,6 +2448,9 @@
       "req_job_label": "Warrior",
       "price": 9000,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2102,6 +2470,9 @@
       "req_job_label": "Warrior",
       "price": 11500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2121,6 +2492,9 @@
       "req_job_label": "Warrior",
       "price": 16500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Normal"
     },
     {
@@ -2140,6 +2514,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Fast"
     },
     {
@@ -2159,6 +2536,9 @@
       "req_job_label": "Warrior",
       "price": 26500,
       "weapon_type": "2H Axe",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Normal"
     },
     {
@@ -2177,6 +2557,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 2500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Normal"
     },
     {
@@ -2196,6 +2579,9 @@
       "req_job_label": "Warrior",
       "price": 3500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2215,6 +2601,9 @@
       "req_job_label": "Warrior",
       "price": 4500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2233,6 +2622,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 5500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2252,6 +2644,9 @@
       "req_job_label": "Warrior",
       "price": 6500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Normal"
     },
     {
@@ -2271,6 +2666,9 @@
       "req_job_label": "Warrior",
       "price": 9000,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2290,6 +2688,9 @@
       "req_job_label": "Warrior",
       "price": 11500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2309,6 +2710,9 @@
       "req_job_label": "Warrior",
       "price": 16500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2328,6 +2732,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2347,6 +2754,9 @@
       "req_job_label": "Warrior",
       "price": 26500,
       "weapon_type": "2H Blunt Weapon",
+      "after_image": "axe",
+      "swing_reach_px": 99,
+      "stab_reach_px": 90,
       "attack_speed_label": "Slow"
     },
     {
@@ -2365,6 +2775,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 2500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2383,6 +2796,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 3500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2401,6 +2817,9 @@
       "req_job_label": "All",
       "price": 4500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Normal"
     },
     {
@@ -2420,6 +2839,9 @@
       "req_job_label": "Warrior",
       "price": 6500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2439,6 +2861,9 @@
       "req_job_label": "Warrior",
       "price": 9000,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2458,6 +2883,9 @@
       "req_job_label": "Warrior",
       "price": 11500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Normal"
     },
     {
@@ -2477,6 +2905,9 @@
       "req_job_label": "Warrior",
       "price": 16500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Normal"
     },
     {
@@ -2496,6 +2927,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Normal"
     },
     {
@@ -2515,6 +2949,9 @@
       "req_job_label": "Warrior",
       "price": 26500,
       "weapon_type": "Spear",
+      "after_image": "spear",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2533,6 +2970,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 2500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2552,6 +2992,9 @@
       "req_job_label": "Warrior",
       "price": 3500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2571,6 +3014,9 @@
       "req_job_label": "Warrior",
       "price": 4500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2589,6 +3035,9 @@
       "req_job_label": "Warrior/Bowman/Thief",
       "price": 5500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2608,6 +3057,9 @@
       "req_job_label": "Warrior",
       "price": 6500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2627,6 +3079,9 @@
       "req_job_label": "Warrior",
       "price": 9000,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2646,6 +3101,9 @@
       "req_job_label": "Warrior",
       "price": 11500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2665,6 +3123,9 @@
       "req_job_label": "Warrior",
       "price": 16500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2684,6 +3145,9 @@
       "req_job_label": "Warrior",
       "price": 21500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2703,6 +3167,9 @@
       "req_job_label": "Warrior",
       "price": 26500,
       "weapon_type": "Polearm",
+      "after_image": "poleArm",
+      "swing_reach_px": 120,
+      "stab_reach_px": 130,
       "attack_speed_label": "Slow"
     },
     {
@@ -2722,6 +3189,9 @@
       "req_job_label": "Bowman",
       "price": 2500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2742,6 +3212,9 @@
       "req_job_label": "Bowman",
       "price": 3500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2762,6 +3235,9 @@
       "req_job_label": "Bowman",
       "price": 4500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2782,6 +3258,9 @@
       "req_job_label": "Bowman",
       "price": 5500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -2803,6 +3282,9 @@
       "req_job_label": "Bowman",
       "price": 6500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2823,6 +3305,9 @@
       "req_job_label": "Bowman",
       "price": 9000,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Fast"
     },
     {
@@ -2843,6 +3328,9 @@
       "req_job_label": "Bowman",
       "price": 11500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2863,6 +3351,9 @@
       "req_job_label": "Bowman",
       "price": 16500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2881,6 +3372,9 @@
       },
       "req_job_label": "Bowman",
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2901,6 +3395,9 @@
       "req_job_label": "Bowman",
       "price": 21500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2921,6 +3418,9 @@
       "req_job_label": "Bowman",
       "price": 26500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2942,6 +3442,9 @@
       "req_job_label": "Bowman",
       "price": 26500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2963,6 +3466,9 @@
       "req_job_label": "Bowman",
       "price": 26500,
       "weapon_type": "Bow",
+      "after_image": "swordTS",
+      "swing_reach_px": 86,
+      "stab_reach_px": 98,
       "attack_speed_label": "Normal"
     },
     {
@@ -2982,6 +3488,9 @@
       "req_job_label": "Bowman",
       "price": 2500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3001,6 +3510,9 @@
       "req_job_label": "Bowman",
       "price": 3500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3021,6 +3533,9 @@
       "req_job_label": "Bowman",
       "price": 4500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Normal"
     },
     {
@@ -3041,6 +3556,9 @@
       "req_job_label": "Bowman",
       "price": 5500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3062,6 +3580,9 @@
       "req_job_label": "Bowman",
       "price": 6500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3082,6 +3603,9 @@
       "req_job_label": "Bowman",
       "price": 11500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Normal"
     },
     {
@@ -3102,6 +3626,9 @@
       "req_job_label": "Bowman",
       "price": 14000,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3122,6 +3649,9 @@
       "req_job_label": "Bowman",
       "price": 16500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3142,6 +3672,9 @@
       "req_job_label": "Bowman",
       "price": 21500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3162,6 +3695,9 @@
       "req_job_label": "Bowman",
       "price": 26500,
       "weapon_type": "Crossbow",
+      "after_image": "crossBow",
+      "swing_reach_px": 86,
+      "stab_reach_px": 84,
       "attack_speed_label": "Slow"
     },
     {
@@ -3180,6 +3716,9 @@
       "req_job_label": "Thief",
       "price": 2500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3199,6 +3738,9 @@
       "req_job_label": "Thief",
       "price": 3500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3219,6 +3761,9 @@
       "req_job_label": "Thief",
       "price": 3700,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3239,6 +3784,9 @@
       "req_job_label": "Thief",
       "price": 3900,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3258,6 +3806,9 @@
       "req_job_label": "Thief",
       "price": 4500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3278,6 +3829,9 @@
       "req_job_label": "Thief",
       "price": 4700,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3298,6 +3852,9 @@
       "req_job_label": "Thief",
       "price": 4900,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3317,6 +3874,9 @@
       "req_job_label": "Thief",
       "price": 5500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Faster"
     },
     {
@@ -3336,6 +3896,9 @@
       "req_job_label": "Thief",
       "price": 6500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3356,6 +3919,9 @@
       "req_job_label": "Thief",
       "price": 6700,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3376,6 +3942,9 @@
       "req_job_label": "Thief",
       "price": 6900,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3395,6 +3964,9 @@
       "req_job_label": "Thief",
       "price": 9000,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3415,6 +3987,9 @@
       "req_job_label": "Thief",
       "price": 9500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3435,6 +4010,9 @@
       "req_job_label": "Thief",
       "price": 10000,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3454,6 +4032,9 @@
       "req_job_label": "Thief",
       "price": 11500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3474,6 +4055,9 @@
       "req_job_label": "Thief",
       "price": 12000,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3494,6 +4078,9 @@
       "req_job_label": "Thief",
       "price": 12000,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3514,6 +4101,9 @@
       "req_job_label": "Thief",
       "price": 12500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3533,6 +4123,9 @@
       "req_job_label": "Thief",
       "price": 16500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3553,6 +4146,9 @@
       "req_job_label": "Thief",
       "price": 17000,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3573,6 +4169,9 @@
       "req_job_label": "Thief",
       "price": 17000,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3593,6 +4192,9 @@
       "req_job_label": "Thief",
       "price": 17500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3610,6 +4212,9 @@
       },
       "req_job_label": "Thief",
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3629,6 +4234,9 @@
       "req_job_label": "Thief",
       "price": 21500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3649,6 +4257,9 @@
       "req_job_label": "Thief",
       "price": 21500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3669,6 +4280,9 @@
       "req_job_label": "Thief",
       "price": 21500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3689,6 +4303,9 @@
       "req_job_label": "Thief",
       "price": 21500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3708,6 +4325,9 @@
       "req_job_label": "Thief",
       "price": 26500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3728,6 +4348,9 @@
       "req_job_label": "Thief",
       "price": 26500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3748,6 +4371,9 @@
       "req_job_label": "Thief",
       "price": 26500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -3768,6 +4394,9 @@
       "req_job_label": "Thief",
       "price": 26500,
       "weapon_type": "Claw",
+      "after_image": "swordOL",
+      "swing_reach_px": 88,
+      "stab_reach_px": 84,
       "attack_speed_label": "Fast"
     },
     {
@@ -5129,7 +5758,7 @@
     },
     {
       "id": 1002087,
-      "name": "Iron Burgernet Helm",
+      "name": "Iron Burgonet Helm",
       "category": "Equipment",
       "sub_category": "Hat",
       "stats": {
@@ -5148,7 +5777,7 @@
     },
     {
       "id": 1002088,
-      "name": "Gold Burgernet Helm",
+      "name": "Gold Burgonet Helm",
       "category": "Equipment",
       "sub_category": "Hat",
       "stats": {
@@ -5168,7 +5797,7 @@
     },
     {
       "id": 1002089,
-      "name": "Orihalcon Burgernet Helm",
+      "name": "Orihalcon Burgonet Helm",
       "category": "Equipment",
       "sub_category": "Hat",
       "stats": {
@@ -7395,6 +8024,22 @@
       "price": 11400
     },
     {
+      "id": 1002994,
+      "name": "Mark of the Beta",
+      "category": "Equipment",
+      "sub_category": "Hat",
+      "stats": {
+        "incSTR": 1,
+        "incDEX": 1,
+        "incINT": 1,
+        "incLUK": 1,
+        "incPDD": 15,
+        "tuc": 7
+      },
+      "req_job_label": "All",
+      "price": 1000
+    },
+    {
       "id": 1002995,
       "name": "MapleStory Invincible Hat",
       "category": "Equipment",
@@ -7498,6 +8143,23 @@
       },
       "req_job_label": "All",
       "price": 1
+    },
+    {
+      "id": 1003000,
+      "name": "Cap of Memories",
+      "category": "Equipment",
+      "sub_category": "Hat",
+      "stats": {
+        "reqLevel": 30,
+        "incSTR": 2,
+        "incDEX": 2,
+        "incINT": 2,
+        "incLUK": 2,
+        "incPDD": 20,
+        "tuc": 7
+      },
+      "req_job_label": "All",
+      "price": 1400
     },
     {
       "id": 1102000,
@@ -21402,6 +22064,7 @@
       "stats": {
         "reqLevel": 57,
         "incMDD": 42,
+        "incMMP": 7,
         "incEVA": 2,
         "tuc": 5,
         "incCRD": 2
@@ -21418,6 +22081,7 @@
       "stats": {
         "reqLevel": 57,
         "incMDD": 42,
+        "incMMP": 7,
         "incEVA": 2,
         "tuc": 5,
         "incCRD": 2
@@ -21425,6 +22089,22 @@
       "req_job_label": "All",
       "description": "An honorable earring awarded to the Citizen of Honor of Kerning City.",
       "price": 20700
+    },
+    {
+      "id": 1032023,
+      "name": "Faded Maple Leaf Earrings",
+      "category": "Equipment",
+      "sub_category": "Earring",
+      "stats": {
+        "reqLevel": 28,
+        "incMDD": 26,
+        "incMMP": 8,
+        "tuc": 5,
+        "incCRD": 1
+      },
+      "req_job_label": "All",
+      "description": "A maple leaf-shaped earring believed to have been used by an adventurer long ago. It has faded with the passage of time.",
+      "price": 4200
     },
     {
       "id": 2000000,
@@ -21488,6 +22168,24 @@
       "stats": { "price": 1000, "useCooldown": 30 },
       "spec": { "mpR": 50 },
       "description": "A legendary potion.\nRestores 50% of your MP, but due to its powerful effect, there is a cooldown before it can be used again."
+    },
+    {
+      "id": 2000007,
+      "name": "Red Potion",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 5 },
+      "spec": { "hp": 100 },
+      "description": "A potion made out of red herbs.\nRestores 100 HP."
+    },
+    {
+      "id": 2000008,
+      "name": "Blue Potion",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 22 },
+      "spec": { "mp": 200 },
+      "description": "A potion made out of blue herbs.\nRestores 200 MP."
     },
     {
       "id": 2002000,
@@ -21907,6 +22605,42 @@
       "description": "A hearty seafood stew crafted by Andre.\nRestores 300 HP and 300 MP."
     },
     {
+      "id": 2020020,
+      "name": "Red Malady's Candy",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 3000 },
+      "spec": { "hp": 600 },
+      "description": "An enticing piece of candy straight from Malady's finest pot. \nRecovers 600 HP."
+    },
+    {
+      "id": 2020021,
+      "name": "Blue Malady's Candy",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 3000 },
+      "spec": { "mp": 450 },
+      "description": "This delicious candy holds a special blessing from Malady. \nRecovers 450 MP."
+    },
+    {
+      "id": 2020022,
+      "name": "Green Malady's Candy",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 3000 },
+      "spec": { "hp": 300, "mp": 300 },
+      "description": "This delicious candy holds a special blessing from Malady. \nRestores 300 HP and 300 MP."
+    },
+    {
+      "id": 2020023,
+      "name": "Cake",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 15, "timeLimited": 1 },
+      "spec": { "hp": 100, "mp": 100 },
+      "description": "A cake full of sweetness.\nRestores 100 HP and MP."
+    },
+    {
       "id": 2022000,
       "name": "Pure Water",
       "category": "Consumable",
@@ -21953,12 +22687,21 @@
     },
     {
       "id": 2023001,
-      "name": "GM's Blessing of Precision",
+      "name": "GM's Blessing of the Keen Eye",
       "category": "Consumable",
       "sub_category": "Consume",
       "stats": {},
-      "spec": { "acc": 20, "time": 3600000 },
-      "description": "A special blessing from the GM that sharpens your senses.\n\nAccuracy +20\n\nStacks with other boost effects.\nEffects disappear upon relogin."
+      "spec": { "time": 3600000 },
+      "description": "A special blessing from the GM that hones your instincts for a lethal strike.\n\nCritical Rate +10%\n\nStacks with other boost effects.\nEffects disappear upon relogin."
+    },
+    {
+      "id": 2023002,
+      "name": "Inkwell's Blessing",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {},
+      "spec": { "pad": 50, "mad": 50, "time": 3600000 },
+      "description": "A special blessing from Inkwell.\n\nAttack Power +50\nMagic Attack +50\n\nStacks with other boost effects.\nEffects disappear upon relogin."
     },
     {
       "id": 2028000,
@@ -22063,6 +22806,22 @@
       "sub_category": "Consume",
       "stats": { "price": 500 },
       "description": "Returns you to El Nath."
+    },
+    {
+      "id": 2030010,
+      "name": "Return Scroll to My Home",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 150, "useCooldown": 3600 },
+      "description": "Returns you to your warm and cozy home."
+    },
+    {
+      "id": 2030011,
+      "name": "Return Scroll - Nearest Town",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 200, "timeLimited": 1 },
+      "description": "Returns you to the nearest town."
     },
     {
       "id": 2060000,
@@ -22289,6 +23048,14 @@
       "description": "Small pets love them. Restores 30 Fullness. Can be purchased at the General Stores in towns or from the Pet Food Merchants in some towns. NOT for human consumption!"
     },
     {
+      "id": 2120001,
+      "name": "Pet Food",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 15, "slotMax": 200, "timeLimited": 1 },
+      "description": "Small pets love them. Restores 30 Fullness. Can be purchased at the General Stores in towns or from the Pet Food Merchants in some towns. NOT for human consumption!"
+    },
+    {
       "id": 2190000,
       "name": "Lie Detector Test",
       "category": "Consumable",
@@ -22358,6 +23125,21 @@
       "stats": { "slotMax": 200, "tradeBlock": 1 },
       "spec": { "hp": 150, "time": 3600000, "morph": 3 },
       "description": "What would life be like as a Ribbon Pig...\n\nRight-click on the buff icon to cancel the transformation."
+    },
+    {
+      "id": 2210007,
+      "name": "Jr. Balrog Invasion",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "price": 1,
+        "slotMax": 200,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "timeLimited": 1
+      },
+      "spec": { "hp": 500, "time": 600000, "morph": 4 },
+      "description": "I sense an overwhelming power!\n\nRight-click on the buff icon to cancel the transformation."
     },
     {
       "id": 2375000,
@@ -22471,14 +23253,278 @@
     },
     {
       "id": 2430009,
-      "name": "Hired Merchants Box",
+      "name": "MapleStory Fest 2026 Gift Box (Bronze)",
       "category": "Consumable",
       "sub_category": "Consume",
-      "stats": { "price": 1, "tradeBlock": 1, "notSale": 1, "timeLimited": 1 },
-      "description": "Double-click to open it and receive one random Hired Merchant item."
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- MapleStory Fest 2026 Label Ring Exchange Coupon x1\n- MapleStory Fest 2026 Chat Ring Exchange Coupon x1\n- MapleStory Fest 2026 Special Hat Exchange Box (Bronze) x1"
     },
     {
       "id": 2430010,
+      "name": "MapleStory Fest 2026 Gift Box (Silver)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- MapleStory Fest 2026 Label Ring Exchange Coupon x1\n- MapleStory Fest 2026 Chat Ring Exchange Coupon x1\n- MapleStory Fest 2026 Special Hat Exchange Box (Silver) x1"
+    },
+    {
+      "id": 2430011,
+      "name": "MapleStory Fest 2026 Gift Box (Gold)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- MapleStory Fest 2026 Label Ring Exchange Coupon x1\n- MapleStory Fest 2026 Chat Ring Exchange Coupon x1\n- MapleStory Fest 2026 Special Hat Exchange Box (Gold) x1"
+    },
+    {
+      "id": 2430012,
+      "name": "MapleStory Fest 2026 Label Ring Exchange Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the item below:\n\n- MapleStory Fest 2026 Label Ring (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430013,
+      "name": "MapleStory Fest 2026 Chat Ring Exchange Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the item below:\n\n- MapleStory Fest 2026 Chat Ring (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430014,
+      "name": "MapleStory Fest 2026 Special Hat Exchange Box (Bronze)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to choose one of the items below:\n\n- Octopus Hat (Transferable within world, Permanent) x1\n- Orange Mushroom Hat (Transferable within world, Permanent) x1\n- Slime Hat (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430015,
+      "name": "MapleStory Fest 2026 Special Hat Exchange Box (Silver)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to choose two of the items below:\n\n- Octopus Hat (Transferable within world, Permanent) x1\n- Orange Mushroom Hat (Transferable within world, Permanent) x1\n- Slime Hat (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430016,
+      "name": "MapleStory Fest 2026 Special Hat Exchange Box (Gold)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Octopus Hat (Transferable within world, Permanent) x1\n- Orange Mushroom Hat (Transferable within world, Permanent) x1\n- Slime Hat (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430017,
+      "name": "Snail Package",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Mark of the Founder (Tan) (Transferable within world, Permanent) x1\n- Glimmer of the Founder (Transferable within world, Permanent) x1\n- Jr. Balrog Invasion (Untradable, 90 Days) x50\n- Well-Loved Avatar Set (Transferable within world, 30 Days) x1"
+    },
+    {
+      "id": 2430018,
+      "name": "Orange Mushroom Package",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Mark of the Founder (Brown) (Transferable within world, Permanent) x1\n- Glow of the Founder (Transferable within world, Permanent) x1\n- Founder's Thief Avatar Set (Transferable within world, 30 Days) x1\n- Mark of the Founder (Tan) (Transferable within world, Permanent) x1\n- Glimmer of the Founder (Transferable within world, Permanent) x1\n- Jr. Balrog Invasion (Untradable, 90 Days) x1\n- Well-Loved Avatar Set (Transferable within world, 30 Days) x1"
+    },
+    {
+      "id": 2430019,
+      "name": "Zakum Package",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Mark of the Founder (Black) (Transferable within world, Permanent) x1\n- Radiance of the Founder (Transferable within world, Permanent) x1\n- Founder's Label Ring Exchange Coupon (Transferable within world, 30 Days) x1\n- Founder's Chat Ring Exchange Coupon (Transferable within world, 30 Days) x1\n- Manji Avatar Set (Transferable within world, 30 Days) x1\n- Mark of the Founder (Brown) (Transferable within world, Permanent) x1\n- Glow of the Founder (Transferable within world, Permanent) x1\n- Founder's Thief Avatar Set (Transferable within world, 30 Days) x1\n- Mark of the Founder (Tan) (Transferable within world, Permanent) x1\n- Glimmer of the Founder (Transferable within world, Permanent) x1\n- Jr. Balrog Invasion (Untradable, 90 Days) x1\n- Well-Loved Avatar Set (Transferable within world, 30 Days) x1"
+    },
+    {
+      "id": 2430020,
+      "name": "Snail to Orange Mushroom Upgrade Package",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Mark of the Founder (Brown) (Transferable within world, Permanent) x1\n- Glow of the Founder (Transferable within world, Permanent) x1\n- Founder's Thief Avatar Set (Transferable within world, 30 Days) x1"
+    },
+    {
+      "id": 2430021,
+      "name": "Orange Mushroom to Zakum Upgrade Package",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Mark of the Founder (Black) (Transferable within world, Permanent) x1\n- Radiance of the Founder (Transferable within world, Permanent) x1\n- Founder's Label Ring Exchange Coupon (Transferable within world, 30 Days) x1\n- Founder's Chat Ring Exchange Coupon (Transferable within world, 30 Days) x1\n- Manji Avatar Set (Transferable within world, 30 Days) x1"
+    },
+    {
+      "id": 2430022,
+      "name": "Snail to Zakum Upgrade Package",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Mark of the Founder (Black) (Transferable within world, Permanent) x1\n- Radiance of the Founder (Transferable within world, Permanent) x1\n- Founder's Label Ring Exchange Coupon (Transferable within world, 30 Days) x1\n- Founder's Chat Ring Exchange Coupon (Transferable within world, 30 Days) x1\n- Manji Avatar Set (Transferable within world, 30 Days) x1\n- Mark of the Founder (Brown) (Transferable within world, Permanent) x1\n- Glow of the Founder (Transferable within world, Permanent) x1\n- Founder's Thief Avatar Set (Transferable within world, 30 Days) x1"
+    },
+    {
+      "id": 2430023,
+      "name": "Well-Loved Avatar Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Well-Loved Brown Bamboo Hat (Transferable within world, Permanent) x1\n- Well-Loved Blue Sauna Robe (Transferable within world, Permanent) x1\n- Well-Loved Pan Lid (Transferable within world, Permanent) x1\n- Well-Loved White & Blue Sandals (Transferable within world, Permanent) x1\n- Well-Loved Work Gloves (Transferable within world, Permanent) x1\n- Well-Loved Frozen Tuna (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430024,
+      "name": "Founder's Thief Avatar Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Founder's Thief Hat (Transferable within world, Permanent) x1\n- Founder's Thief Outfit (Transferable within world, Permanent) x1\n- Founder's Thief Boots (Transferable within world, Permanent) x1\n- Founder's Thief Gloves (Transferable within world, Permanent) x1\n- Founder's Thief Dagger (Transferable within world, Permanent) x1\n- Founder's Thief Face (Transferable within world, Permanent) x1\n"
+    },
+    {
+      "id": 2430025,
+      "name": "Manji Avatar Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the items below:\n\n- Manji's Bamboo Hat (Transferable within world, Permanent) x1\n- Manji's Clothes (Transferable within world, Permanent) x1\n- Silent Sea of Clouds  (Transferable within world, Permanent) x1\n- Reticent Steps (Transferable within world, Permanent) x1\n- Manji's Blade (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430026,
+      "name": "Founder's Label Ring Exchange Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the item below:\n\n- Founder's Label Ring (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430027,
+      "name": "Founder's Chat Ring Exchange Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to obtain the item below:\n\n- Founder's Chat Ring (Transferable within world, Permanent) x1"
+    },
+    {
+      "id": 2430028,
+      "name": "Frieren Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Frieren Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430029,
+      "name": "Frieren Clothes Selector Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to choose either Frieren's Clothes or Frieren's Winter Clothes. "
+    },
+    {
+      "id": 2430030,
+      "name": "Frieren Outfit Set (Ringlets)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Frieren Outfit Set (Ringlets).\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430031,
+      "name": "Frieren Outfit Set (Sleep)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Frieren Outfit Set (Sleep).\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430032,
+      "name": "Fern Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Fern Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430033,
+      "name": "Fern's Clothes Selector Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to choose either Fern's Clothes or Fern's Winter Clothes. "
+    },
+    {
+      "id": 2430034,
+      "name": "Stark Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Stark Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430035,
+      "name": "Stark's Clothes Selector Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to choose either Stark's Clothes or Stark's Winter Clothes. "
+    },
+    {
+      "id": 2430036,
+      "name": "Stark's Shoes Selector Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to choose either Stark's Shoes or Stark's Winter Shoes."
+    },
+    {
+      "id": 2430037,
+      "name": "Stark's Gloves Selector Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to choose either Stark's Gloves or Stark's Winter Gloves."
+    },
+    {
+      "id": 2430038,
+      "name": "Himmel Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Himmel Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430039,
+      "name": "bel Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the  bel Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430040,
+      "name": "Aura Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Aura Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430041,
+      "name": "Linie Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the Linie Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430042,
+      "name": "L gner Outfit Set",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to obtain the L gner Outfit Set.\nThe obtained item can be equipped regardless of the character's gender."
+    },
+    {
+      "id": 2430043,
       "name": "Atmospheric Effect Box",
       "category": "Consumable",
       "sub_category": "Consume",
@@ -22486,22 +23532,308 @@
       "description": "Double-click to open it and receive one random atmospheric effect item."
     },
     {
+      "id": 2430044,
+      "name": "Aurora Stamp",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "slotMax": 1000, "notSale": 1 },
+      "description": "An Aurora Stamp obtained by reusing items from the Mystery Fashion Crate. Aurora Stamps can be exchanged for items that can be traded before being equipped."
+    },
+    {
+      "id": 2430045,
+      "name": "Mystery Palette Exchange Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to receive Mystery Palette x1."
+    },
+    {
+      "id": 2430046,
+      "name": "Palette Cleanser Exchange Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to receive Palette Cleanser x1."
+    },
+    {
+      "id": 2430047,
+      "name": "Adventurer's Journal",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "slotMax": 1,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "only": 1,
+        "timeLimited": 1
+      },
+      "description": "A weathered, leather-bound journal carried by an early Victoria Island pioneer. Most of the inner pages have been torn away, leaving behind faint traces of ink and forgotten memories.\n\nDouble-click to see what is written inside"
+    },
+    {
+      "id": 2430048,
+      "name": "Adventurer's Journal - Page 2",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "slotMax": 1,
+        "quest": 1,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "only": 1,
+        "timeLimited": 1
+      },
+      "description": "A weathered page from a Adventurer's Journal.\n.Double-click to see what is written inside"
+    },
+    {
+      "id": 2430049,
+      "name": "Adventurer's Journal - Page 3",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "slotMax": 1,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "only": 1,
+        "timeLimited": 1
+      },
+      "description": "A weathered page from a Adventurer's Journal.\n.Double-click to see what is written inside"
+    },
+    {
+      "id": 2430050,
+      "name": "Adventurer's Journal - Page 4",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "slotMax": 1,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "only": 1,
+        "timeLimited": 1
+      },
+      "description": "A weathered page from a Adventurer's Journal.\n.Double-click to see what is written inside"
+    },
+    {
+      "id": 2430051,
+      "name": "Adventurer's Journal - Page 5",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "slotMax": 1,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "only": 1,
+        "timeLimited": 1
+      },
+      "description": "A weathered page from a Adventurer's Journal.\n.Double-click to see what is written inside"
+    },
+    {
+      "id": 2430052,
+      "name": "Adventurer's Journal - Page 6",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": {
+        "slotMax": 1,
+        "tradeBlock": 1,
+        "notSale": 1,
+        "only": 1,
+        "timeLimited": 1
+      },
+      "description": "A weathered page from a Adventurer's Journal.\n.Double-click to see what is written inside"
+    },
+    {
+      "id": 2430053,
+      "name": "Compensation Box",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to get various gifts. The box will disappear when it expires."
+    },
+    {
+      "id": 2430054,
+      "name": "Compensation Box",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to get various gifts. The box will disappear when it expires."
+    },
+    {
+      "id": 2430055,
+      "name": "Compensation Box",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to get various gifts. The box will disappear when it expires."
+    },
+    {
+      "id": 2430056,
+      "name": "Compensation Box",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to get various gifts. The box will disappear when it expires."
+    },
+    {
+      "id": 2430057,
+      "name": "Compensation Box",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to get various gifts. The box will disappear when it expires."
+    },
+    {
+      "id": 2430058,
+      "name": "Gift Box",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Double-click to get various gifts. The box will disappear when it expires."
+    },
+    {
       "id": 2450000,
-      "name": "2x EXP Coupon (30 min)",
+      "name": "1.5x EXP Coupon (15 min)",
       "category": "Consumable",
       "sub_category": "Consume",
       "stats": { "price": 1, "slotMax": 100, "notSale": 1, "timeLimited": 1 },
-      "spec": { "time": 1800000 },
-      "description": "Double-click to receive a 2x EXP buff for 30 minutes.\n\nEffect does not stack with similar event buffs."
+      "spec": { "time": 900000 },
+      "description": "Double-click to receive a 1.5x EXP buff for 15 minutes.\n\nEffect does not stack with similar event buffs."
     },
     {
       "id": 2450001,
+      "name": "2x EXP Coupon (15 min)",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 100, "notSale": 1, "timeLimited": 1 },
+      "spec": { "time": 900000 },
+      "description": "Double-click to receive a 2x EXP buff for 15 minutes.\n\nEffect does not stack with similar event buffs."
+    },
+    {
+      "id": 2450002,
       "name": "3x EXP Coupon (15 min)",
       "category": "Consumable",
       "sub_category": "Consume",
       "stats": { "price": 1, "slotMax": 100, "notSale": 1, "timeLimited": 1 },
       "spec": { "time": 900000 },
       "description": "Double-click to receive a 3x EXP buff for 15 minutes.\n\nEffect does not stack with similar event buffs."
+    },
+    {
+      "id": 2542000,
+      "name": "Frieren Hair Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to Frieren Hair."
+    },
+    {
+      "id": 2542001,
+      "name": "Frieren Hair (Ringlets) Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to Frieren Hair (Ringlets)."
+    },
+    {
+      "id": 2542002,
+      "name": "Frieren Hair (Sleep) Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to Frieren Hair (Sleep)."
+    },
+    {
+      "id": 2542003,
+      "name": "Fern Hair Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to Fern Hair."
+    },
+    {
+      "id": 2542004,
+      "name": "Stark Hair Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to Stark Hair."
+    },
+    {
+      "id": 2542005,
+      "name": "Himmel Hair Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to Himmel Hair."
+    },
+    {
+      "id": 2542006,
+      "name": "bel Hair Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your hairstyle to  bel Hair."
+    },
+    {
+      "id": 2897000,
+      "name": "Frieren Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "Double-click to change your face to Frieren Face."
+    },
+    {
+      "id": 2897001,
+      "name": "Fern Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "Double-click to change your face to Fern Face."
+    },
+    {
+      "id": 2897002,
+      "name": "Stark Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "Double-click to change your face to Stark Face."
+    },
+    {
+      "id": 2897003,
+      "name": "Himmel Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "Double-click to change your face to Himmel Face."
+    },
+    {
+      "id": 2897004,
+      "name": "bel Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your face to  bel Face."
+    },
+    {
+      "id": 2897005,
+      "name": "Aura Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your face to Aura Face."
+    },
+    {
+      "id": 2897006,
+      "name": "Linie Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your face to Linie Face."
+    },
+    {
+      "id": 2897007,
+      "name": "L gner Face Coupon",
+      "category": "Consumable",
+      "sub_category": "Consume",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "Double-click to change your face to L gner Face."
     },
     {
       "id": 4000000,
@@ -23061,7 +24393,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 30, "slotMax": 200 },
-      "description": "A hard shellpiece from Sentinel."
+      "description": "A hard fragment of shell that once formed part of a Sentinel's body."
     },
     {
       "id": 4000070,
@@ -23069,7 +24401,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 30, "slotMax": 200 },
-      "description": "A hard shellpiece that's a part of Ice Sentinel."
+      "description": "A hard fragment of shell that once formed part of an Ice Sentinel's body."
     },
     {
       "id": 4000071,
@@ -23077,7 +24409,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 30, "slotMax": 200 },
-      "description": "A hard shellpiece that's a part of Fire Sentinel."
+      "description": "A hard fragment of shell that once formed part of a Fire Sentinel's body."
     },
     {
       "id": 4000072,
@@ -23085,7 +24417,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 30, "slotMax": 200 },
-      "description": "A soft piece of cotton from Teddy."
+      "description": "A soft tuft of cotton stuffing that fell out of a Teddy."
     },
     {
       "id": 4000073,
@@ -23093,7 +24425,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 31, "slotMax": 200 },
-      "description": "It is a worn-out goggle. It is too small."
+      "description": "A goggle worn down with age. It's too small to fit over a head now."
     },
     {
       "id": 4000074,
@@ -23101,7 +24433,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 31, "slotMax": 200 },
-      "description": "A toy drum from the Drum Bunny."
+      "description": "A toy drum that belonged to a Drum Bunny."
     },
     {
       "id": 4000075,
@@ -23109,7 +24441,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 32, "slotMax": 200 },
-      "description": "A yellow ribbon from Teddy."
+      "description": "A yellow ribbon that once hung from a Teddy."
     },
     {
       "id": 4000076,
@@ -23117,7 +24449,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 32, "slotMax": 200 },
-      "description": "Some one must have set up this rat trap. Make sure it doesn't go off."
+      "description": "A rat trap someone set up. Handle it carefully so it doesn't go off."
     },
     {
       "id": 4000077,
@@ -23125,7 +24457,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 32, "slotMax": 200 },
-      "description": "Leatty's Furball. So soft and small that it looks like it may just float away."
+      "description": "A furball from a Leatty, soft and small enough that it looks like it might float away."
     },
     {
       "id": 4000078,
@@ -23133,7 +24465,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 33, "slotMax": 200 },
-      "description": "A horn that can be obtained from Jr. Cellion, Jr. Lioner, and Jr. Grupin."
+      "description": "A sturdy horn obtainable from Jr. Cellions, Jr. Lioners, and Jr. Grupins."
     },
     {
       "id": 4000079,
@@ -23141,7 +24473,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 33, "slotMax": 200 },
-      "description": "Dark Leatty's Furball. So soft and small that it looks like it may just float away."
+      "description": "A furball from a Dark Leatty, soft and small enough that it looks like it might float away."
     },
     {
       "id": 4000080,
@@ -23149,7 +24481,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 34, "slotMax": 200 },
-      "description": "A miniature toy duckling with wheels."
+      "description": "A miniature toy duckling fitted with wheels."
     },
     {
       "id": 4000081,
@@ -23157,7 +24489,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 34, "slotMax": 200 },
-      "description": "A hard walnut that may have been nibbled away before."
+      "description": "A hard walnut that looks like something's already taken a few bites out of it."
     },
     {
       "id": 4000082,
@@ -23165,7 +24497,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 34, "slotMax": 200 },
-      "description": "A tiny spring of the clock."
+      "description": "A tiny spring, one of a clock's inner parts."
     },
     {
       "id": 4000083,
@@ -23173,7 +24505,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 35, "slotMax": 200 },
-      "description": "A piece of star dropped by Star Pixie. It glows beautifully."
+      "description": "A fragment of star dropped by a Star Pixie. It glows with a beautiful light."
     },
     {
       "id": 4000084,
@@ -23181,7 +24513,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 35, "slotMax": 200 },
-      "description": "A small, octopus-shaped key chain made out of plastic."
+      "description": "A small, octopus-shaped keychain made of plastic."
     },
     {
       "id": 4000085,
@@ -23189,7 +24521,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 35, "slotMax": 200 },
-      "description": "A snackery of Jr. Pepe : a live, fresh fish."
+      "description": "A small, live fish that a Jr. Pepe kept around as a snack."
     },
     {
       "id": 4000086,
@@ -23197,7 +24529,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 36, "slotMax": 200 },
-      "description": "A small, adorable-looking panda doll. Looks so real that it may just get up and walk around any minute."
+      "description": "A small, adorable panda doll. It looks so lifelike it might get up and walk away any moment."
     },
     {
       "id": 4000087,
@@ -23205,7 +24537,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 36, "slotMax": 200 },
-      "description": "A propeller that's a part of the toy plane."
+      "description": "A propeller, one of a toy plane's parts."
     },
     {
       "id": 4000088,
@@ -23213,7 +24545,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 37, "slotMax": 200 },
-      "description": "A motor that's a part of the toy plane."
+      "description": "A motor, one of a toy plane's parts."
     },
     {
       "id": 4000089,
@@ -23221,7 +24553,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 37, "slotMax": 200 },
-      "description": "An important part of a clock."
+      "description": "An important part of a clock's inner workings."
     },
     {
       "id": 4000090,
@@ -23229,7 +24561,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 38, "slotMax": 200 },
-      "description": "A toy crown made out of plastic."
+      "description": "A toy crown made of plastic."
     },
     {
       "id": 4000091,
@@ -23237,7 +24569,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 38, "slotMax": 200 },
-      "description": "A controller used to navigate the toy plane."
+      "description": "A controller used to operate a toy plane."
     },
     {
       "id": 4000092,
@@ -23245,7 +24577,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 39, "slotMax": 200 },
-      "description": "Small egg, which is easily breakable."
+      "description": "A small egg, fragile and easily broken. Handle it with care."
     },
     {
       "id": 4000093,
@@ -23253,7 +24585,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 39, "slotMax": 200 },
-      "description": "A plastic sword from the toy trojan."
+      "description": "A plastic sword carried by a Toy Trojan."
     },
     {
       "id": 4000094,
@@ -23261,7 +24593,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 40, "slotMax": 200 },
-      "description": "A very pretty-looking table clock. It's still running."
+      "description": "A small, pretty table clock. It's still ticking away."
     },
     {
       "id": 4000095,
@@ -23269,7 +24601,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 40, "slotMax": 200 },
-      "description": "Food from the Space. You are not supposed to eat this."
+      "description": "Rations brought from space. It doesn't look safe to eat."
     },
     {
       "id": 4000096,
@@ -23277,7 +24609,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 41, "slotMax": 200 },
-      "description": "A wing removed from Fly-Eye. Spiky and very dirty."
+      "description": "A wing taken from a Fly-Eye, spiked and caked in grime."
     },
     {
       "id": 4000097,
@@ -23285,7 +24617,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 41, "slotMax": 200 },
-      "description": "A cheap battery from the inside of a robot. Looks like it still can be used for a little bit."
+      "description": "A cheap battery pulled from inside a robot. Looks like it's still got a little charge left."
     },
     {
       "id": 4000098,
@@ -23293,7 +24625,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 41, "slotMax": 200 },
-      "description": "Mateon's tentacle, which collects lots of information."
+      "description": "A tentacle from a Mateon, used to gather all kinds of information."
     },
     {
       "id": 4000099,
@@ -23301,7 +24633,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 42, "slotMax": 200 },
-      "description": "A seed cut out of Nependeath. It's poisonous, so it shouldn't be taken lightly."
+      "description": "A seed cut from a Nependeath. It's poisonous, so handle it with care."
     },
     {
       "id": 4000100,
@@ -23309,7 +24641,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 42, "slotMax": 200 },
-      "description": "A toy block that's a part of Golem."
+      "description": "A yellow toy block that once formed part of a Golem."
     },
     {
       "id": 4000101,
@@ -23317,7 +24649,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 42, "slotMax": 200 },
-      "description": "Small-sized spaceship. There seems to be a special way of making this work."
+      "description": "A miniature spaceship. It seems to have some special trick to operating it."
     },
     {
       "id": 4000102,
@@ -23325,7 +24657,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 43, "slotMax": 200 },
-      "description": "A tooth removed from Jr. Cerebes. Very small and dense, it also looks very hard to break."
+      "description": "A tooth taken from a Jr. Cerebes, small and dense, and tough to break despite its size."
     },
     {
       "id": 4000103,
@@ -23333,7 +24665,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 44, "slotMax": 200 },
-      "description": "A helmet that Plateon wears all the times. It's slimy inside."
+      "description": "A helmet a Plateon never takes off. The inside is coated in slime."
     },
     {
       "id": 4000104,
@@ -23341,7 +24673,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 44, "slotMax": 200 },
-      "description": "A mechanical heart from the inside of the robot. Looks like it's still working."
+      "description": "A mechanical heart pulled from inside a robot. Looks like it's still running."
     },
     {
       "id": 4000105,
@@ -23349,7 +24681,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 45, "slotMax": 200 },
-      "description": "A piece of moon dropped by Lunar Pixie. It glows beautifully."
+      "description": "A fragment of moon dropped by a Lunar Pixie. It glows with a beautiful light."
     },
     {
       "id": 4000106,
@@ -23357,7 +24689,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 45, "slotMax": 200 },
-      "description": "A toy block that's a part of Golem."
+      "description": "A blue toy block that once formed part of a Golem."
     },
     {
       "id": 4000107,
@@ -23365,7 +24697,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 46, "slotMax": 200 },
-      "description": "Apparatus, which enables you to receive informations from the space. There seems to be a special way of making this work."
+      "description": "A device that can receive signals from space. It seems to have some special trick to operating it."
     },
     {
       "id": 4000108,
@@ -23373,7 +24705,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 47, "slotMax": 200 },
-      "description": "A seed cut out of Dark Nependeath. Should be handled with care, because it's poisonous with thorns around it."
+      "description": "A seed cut from a Dark Nependeath. It's poisonous and covered in thorns, so handle it with care."
     },
     {
       "id": 4000109,
@@ -23381,7 +24713,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 48, "slotMax": 200 },
-      "description": "A laser gun that Mecateon carries. There seems to be a special way of making this work."
+      "description": "A laser gun carried by a Mecateon. It seems to have some special trick to operating it."
     },
     {
       "id": 4000110,
@@ -23389,7 +24721,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 50, "slotMax": 200 },
-      "description": "A skin cut out of Jr. Yeti. Very soft and full of white fur."
+      "description": "A pelt cut from a Jr. Yeti, soft and covered in white fur."
     },
     {
       "id": 4000111,
@@ -23397,7 +24729,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 51, "slotMax": 200 },
-      "description": "A collection of sparks from Firebomb. Scorching hot, looking to explode any minute."
+      "description": "A cluster of sparks gathered from a Firebomb, scorching hot and looking ready to explode any second."
     },
     {
       "id": 4000112,
@@ -23405,7 +24737,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 52, "slotMax": 200 },
-      "description": "A piece of sun dropped by Luster Pixie. It glows beautifully."
+      "description": "A fragment of sun dropped by a Luster Pixie. It glows with a beautiful light."
     },
     {
       "id": 4000113,
@@ -23413,7 +24745,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 53, "slotMax": 200 },
-      "description": "A tail removed from Cellion. Very soft and scorching hot."
+      "description": "A tail cut from a Cellion, soft to the touch but scorching hot."
     },
     {
       "id": 4000114,
@@ -23421,7 +24753,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 53, "slotMax": 200 },
-      "description": "A tail removed from Lioner. Very soft and electric."
+      "description": "A tail cut from a Lioner, soft to the touch and crackling with electricity."
     },
     {
       "id": 4000115,
@@ -23429,7 +24761,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 53, "slotMax": 200 },
-      "description": "A tail removed from Grupin. Very soft and ice cold."
+      "description": " A tail cut from a Grupin, soft to the touch and ice cold."
     },
     {
       "id": 4000116,
@@ -23437,7 +24769,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 55, "slotMax": 200 },
-      "description": "A tail cut out of Hector. Brown, and a tad rough."
+      "description": "A tail cut from a Hector. Brown, and a little rough to the touch."
     },
     {
       "id": 4000117,
@@ -23445,7 +24777,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 56, "slotMax": 200 },
-      "description": "A skin cut out of Dark Jr. Yeti. Consists of rough, black hair."
+      "description": "A pelt cut from a Dark Jr. Yeti, made of coarse black fur."
     },
     {
       "id": 4000118,
@@ -23453,7 +24785,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 57, "slotMax": 200 },
-      "description": "A lost tooth from a Zombie. It's very decayed, looking to break apart any minute."
+      "description": "A tooth lost by a Zombie, badly decayed and looking ready to crumble any moment."
     },
     {
       "id": 4000119,
@@ -23461,7 +24793,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 58, "slotMax": 200 },
-      "description": "A lost gold tooth from the zombie."
+      "description": "A gold tooth lost by a Zombie."
     },
     {
       "id": 4000120,
@@ -23469,7 +24801,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 59, "slotMax": 200 },
-      "description": "A tail cut out of White Fang. Very soft, white hair."
+      "description": "A tail cut from a White Fang, covered in exceptionally soft white fur."
     },
     {
       "id": 4000121,
@@ -23477,7 +24809,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 60, "slotMax": 200 },
-      "description": "A beak cut out of Pepe. Solid and gold-colored."
+      "description": "A beak cut from a Pepe, sturdy and gold in color."
     },
     {
       "id": 4000122,
@@ -23485,7 +24817,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 62, "slotMax": 200 },
-      "description": "A multi-colored hat from Buffy."
+      "description": "A multicolored hat that belonged to a Buffy."
     },
     {
       "id": 4000123,
@@ -23493,7 +24825,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 63, "slotMax": 200 },
-      "description": "A Teddy plushy that's been controlled by Soul Teddy. The soul is long gone, and what's left is a torn-up toy."
+      "description": "A Teddy doll once controlled by a Soul Teddy. The soul is long gone now, leaving only a torn, empty toy behind."
     },
     {
       "id": 4000124,
@@ -23501,7 +24833,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 64, "slotMax": 200 },
-      "description": "A beak cut out of Dark Pepe. Solid and black-colored."
+      "description": "A beak cut from a Dark Pepe, sturdy and black in color."
     },
     {
       "id": 4000125,
@@ -23509,7 +24841,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 65, "slotMax": 200 },
-      "description": "A horn cut out of Yeti. Very solid and hard to break."
+      "description": "A horn cut from a Yeti, sturdy and difficult to break."
     },
     {
       "id": 4000126,
@@ -23517,7 +24849,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 66, "slotMax": 200 },
-      "description": "A marble from the tip of the hat that Lazy Buffy wore. Seems to have a mystierious power hidden in it."
+      "description": "A marble from the tip of a hat worn by a Lazy Buffy. It seems to hold some mysterious power inside."
     },
     {
       "id": 4000127,
@@ -23525,7 +24857,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 67, "slotMax": 200 },
-      "description": "A soul that used to be stuck on the back of Master Soul Teddy. The soul is now set free, and it's smiling."
+      "description": "A soul once bound to the back of a Master Soul Teddy, now set free, and smiling."
     },
     {
       "id": 4000128,
@@ -23533,7 +24865,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 68, "slotMax": 200 },
-      "description": "A horn cut out of Dark Yeti. Very solid and hard to break."
+      "description": "A horn cut from a Dark Yeti, sturdy and difficult to break."
     },
     {
       "id": 4000129,
@@ -23541,7 +24873,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 71, "slotMax": 200 },
-      "description": "Sealed up the center of the clock with a charm."
+      "description": "The shattered core of a clock, sealed shut with a charm."
     },
     {
       "id": 4000130,
@@ -23549,7 +24881,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 72, "slotMax": 200 },
-      "description": "A tooth removed from Cerebes. Very long and massive, enough for it to be a threat to someone."
+      "description": "A tooth cut from a Cerebes, long and massive enough to be used as a weapon."
     },
     {
       "id": 4000131,
@@ -23557,7 +24889,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 73, "slotMax": 200 },
-      "description": "A tail removed from Lucida. It is overflowing with evil force."
+      "description": "A tail cut from a Lucida, brimming with dark energy."
     },
     {
       "id": 4000132,
@@ -23565,7 +24897,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 74, "slotMax": 200 },
-      "description": "An old, humongous grandfather's clock Buffoon uses as a weapon."
+      "description": " A massive, old grandfather clock that a Buffoon wields as a weapon."
     },
     {
       "id": 4000133,
@@ -23573,7 +24905,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 75, "slotMax": 200 },
-      "description": "A toenail cut out of Werewolf. Better be careful, because it's really sharp."
+      "description": "A toenail cut from a Werewolf. Handle it carefully, it's razor sharp."
     },
     {
       "id": 4000134,
@@ -23581,7 +24913,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 76, "slotMax": 200 },
-      "description": "The heart of the Dark Clock is broken, and the charm is stuck on it, but it's still not fully sealed up. As a result, it gives off black aura all around it."
+      "description": "The shattered core of a Dark Clock, bound with a charm that hasn't fully sealed it. A dark aura still leaks out from within."
     },
     {
       "id": 4000135,
@@ -23589,7 +24921,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 77, "slotMax": 200 },
-      "description": "A rock piece that Deep Buffoon donned on its waist. Quite heavy."
+      "description": "A heavy stone fragment that a Deep Buffoon wears at its waist."
     },
     {
       "id": 4000136,
@@ -23597,7 +24929,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 80, "slotMax": 200 },
-      "description": "A toenail cut out of Werewolf. Better be careful, because it's not only really sharp, but almost unbreakable."
+      "description": "A toenail cut from a Lycanthrope, razor sharp and nearly impossible to break."
     },
     {
       "id": 4000137,
@@ -23605,7 +24937,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 83, "slotMax": 200 },
-      "description": "A key stuck on the boat that Pirate was riding on."
+      "description": " A key mounted on a Ghost Pirate's ship."
     },
     {
       "id": 4000138,
@@ -23613,7 +24945,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 85, "slotMax": 200 },
-      "description": "A sealed-up Teddy bear that's been controlled by Death Teddy."
+      "description": "A Teddy doll, sealed shut, once controlled by a Death Teddy."
     },
     {
       "id": 4000139,
@@ -23621,7 +24953,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 87, "slotMax": 200 },
-      "description": "A propeller of the boat that Dual Pirate rides on."
+      "description": "A propeller from a Dual Pirate's ship."
     },
     {
       "id": 4000140,
@@ -23629,7 +24961,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 89, "slotMax": 200 },
-      "description": "The bridle that bound Master Death Teddy's hand and the Teddys."
+      "description": "A bridle used by a Master Death Teddy to bind its Teddy dolls."
     },
     {
       "id": 4000141,
@@ -23637,7 +24969,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 90, "slotMax": 200 },
-      "description": "A collar stolen from Bain. Spiked in everywhich way, enough for it to be a threat to someone."
+      "description": "A collar taken from a Bain, bristling with spikes sharp enough to be dangerous."
     },
     {
       "id": 4000142,
@@ -23645,7 +24977,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 93, "slotMax": 200 },
-      "description": "A sail on the ship that Viking was riding on."
+      "description": " A sail from a Viking's ship."
     },
     {
       "id": 4000143,
@@ -23653,7 +24985,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 95, "slotMax": 200 },
-      "description": "A pot that is a source of power that sealed up the phantom watch."
+      "description": "A jar holding the source of power that once sealed away a Phantom Watch."
     },
     {
       "id": 4000144,
@@ -23661,7 +24993,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 98, "slotMax": 200 },
-      "description": "A huge hat that Gigantic Viking donned."
+      "description": "An enormous hat worn by a Gigantic Viking."
     },
     {
       "id": 4000145,
@@ -23669,7 +25001,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 99, "slotMax": 200 },
-      "description": "An ice piece formed after the death of Grim Phantom Watch."
+      "description": " A fragment of ice left behind when a Grim Phantom Watch met its end."
     },
     {
       "id": 4000146,
@@ -23677,7 +25009,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 108, "slotMax": 200 },
-      "description": "An armband from the Gatekeeper."
+      "description": "An armband that fell from a Gatekeeper's body."
     },
     {
       "id": 4000147,
@@ -23685,7 +25017,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 108, "slotMax": 200 },
-      "description": "A strap from Tanathos."
+      "description": "A strap that fell from a Tanathos's body."
     },
     {
       "id": 4000148,
@@ -23693,7 +25025,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 470, "slotMax": 200 },
-      "description": "A memory card that contains the program that controls Rombot."
+      "description": "A memory card containing the program that controls a Rombot."
     },
     {
       "id": 4000149,
@@ -23701,7 +25033,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 490, "slotMax": 200 },
-      "description": "A sign only the Chief Grays have. The mystical power that the Chief Gray's possess seem to originate from it."
+      "description": "A mystical emblem carried only by Chief Grays. It seems to be the source of the power they wield."
     },
     {
       "id": 4000150,
@@ -23709,7 +25041,7 @@
       "category": "Etc",
       "sub_category": "Etc",
       "stats": { "price": 540, "slotMax": 200 },
-      "description": "A fuel tank of MT-09 that contains unknown liquid. Looks like it has a lot of punch even with a small amount."
+      "description": "A fuel tank from an MT-09, filled with an unidentified liquid. Even a small amount seems to pack considerable power."
     },
     {
       "id": 4001000,
@@ -23838,6 +25170,70 @@
       "sub_category": "Etc",
       "stats": { "price": 1 },
       "description": "The ore that contains the power of fire. Used as a material for the sacrifice to the altar."
+    },
+    {
+      "id": 4001016,
+      "name": "Transparent Item",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "pquest": 1 },
+      "description": "This item is very transparent."
+    },
+    {
+      "id": 4001017,
+      "name": "Green Primrose Seed",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "pquest": 1 },
+      "description": "A seed that'll eventually grow into a primrose."
+    },
+    {
+      "id": 4001018,
+      "name": "Purple Primrose Seed",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "pquest": 1 },
+      "description": "A seed that'll eventually grow into a primrose."
+    },
+    {
+      "id": 4001019,
+      "name": "Pink Primrose Seed",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "pquest": 1 },
+      "description": "A seed that'll eventually grow into a primrose."
+    },
+    {
+      "id": 4001020,
+      "name": "Brown Primrose Seed",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "pquest": 1 },
+      "description": "A seed that'll eventually grow into a primrose."
+    },
+    {
+      "id": 4001021,
+      "name": "Yellow Primrose Seed",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "pquest": 1 },
+      "description": "A seed that'll eventually grow into a primrose."
+    },
+    {
+      "id": 4001022,
+      "name": "Blue Primrose Seed",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "pquest": 1 },
+      "description": "A seed that'll eventually grow into a primrose."
+    },
+    {
+      "id": 4001023,
+      "name": "Moon Bunny's Rice Cake",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "pquest": 1 },
+      "description": "A chewy rice cake made by Moon Bunny."
     },
     {
       "id": 4003000,
@@ -25258,7 +26654,7 @@
       "name": "Scorched Arcon Scroll",
       "category": "Etc",
       "sub_category": "Etc",
-      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "stats": { "price": 1, "quest": 1 },
       "description": "A severely burned piece of magical parchment with crumbling, dark edges. Deliver to Jaime the Explorer."
     },
     {
@@ -25266,7 +26662,7 @@
       "name": "Old Chief Stan's Hammer",
       "category": "Etc",
       "sub_category": "Etc",
-      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "stats": { "price": 1, "quest": 1 },
       "description": "A hammer that Chief Stan lost a very long time ago. It is covered in dirt and debris here and there."
     },
     {
@@ -25274,8 +26670,166 @@
       "name": "Chief Stan's Hammer",
       "category": "Etc",
       "sub_category": "Etc",
-      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "stats": { "price": 1, "quest": 1 },
       "description": "Chief Stan's hammer. Traces of time remain, but it shines brightly, having been wiped clean."
+    },
+    {
+      "id": 4031118,
+      "name": "Torn Ledger Pages",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "Torn from a book and used to line a nest. The ink has run in the rain, but a few words are still legible on some of them. Somebody spent a long time writing on these."
+    },
+    {
+      "id": 4031119,
+      "name": "Incomplete Ledger",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "description": "A registry of adventurers, stamped on the cover by the chief of Henesys. The pages inside are soaked through and mostly unreadable. One word on the top page survived: Warrior."
+    },
+    {
+      "id": 4031120,
+      "name": "Bound Ledger",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "description": "Rebound in Sleepywood and set properly for the first time in years. Most of the ink has come back. One entry runs the entire length of the book, front to back, and it is the one the rain hit hardest."
+    },
+    {
+      "id": 4031121,
+      "name": "Smooth Horn Marble",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A hard marble with a striking pattern. On one corner of the marble, it reads, 'To My Friend Pia.'"
+    },
+    {
+      "id": 4031122,
+      "name": "Torn Note",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A piece of a note with a hastily scribbled message. The only legible parts seem to be \"Deep within Ellinia... ...how to purify the blood of... ...to Chrishrama...\"."
+    },
+    {
+      "id": 4031123,
+      "name": "Athena Pierce's Box",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A box containing a small wooden bow that Athena Pierce used a very long time ago."
+    },
+    {
+      "id": 4031124,
+      "name": "Broken Wooden Bow",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A small wooden bow that Athena Pierce used a very long time ago. The bowstring is broken, making it look difficult to use properly."
+    },
+    {
+      "id": 4031125,
+      "name": "Repaired Wooden Bow",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A small wooden bow that Athena Pierce used a very long time ago. It's been repaired well and looks ready to use at any time."
+    },
+    {
+      "id": 4031126,
+      "name": "Alex's Gift Sack",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A sack containing presents Alex has prepared for the people of Kerning City."
+    },
+    {
+      "id": 4031127,
+      "name": "A Gift for Nella",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A present Alex prepared for Nella. What could be inside"
+    },
+    {
+      "id": 4031128,
+      "name": "A Gift for JM",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A present Alex prepared for JM From tha Streetz. What could be inside"
+    },
+    {
+      "id": 4031129,
+      "name": "Halloween Candies",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 100, "quest": 1, "timeLimited": 1 },
+      "description": "Halloween candies acquired from the monsters."
+    },
+    {
+      "id": 4031130,
+      "name": "Stamped Ledger",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "description": "The long entry names Kerning City and the Dark Lord, though half of it is gone. Whoever kept this book wrote the same person down over and over for years without ever finishing."
+    },
+    {
+      "id": 4031131,
+      "name": "Encrypted Document",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A worn document covered in characters that are difficult to make out."
+    },
+    {
+      "id": 4031132,
+      "name": "Encrypted Document",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "A worn document covered in characters that are difficult to make out."
+    },
+    {
+      "id": 4031133,
+      "name": "Ink of Truth",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "An ink infused with magical power. It can reveal the hidden truth within an encoded document."
+    },
+    {
+      "id": 4031134,
+      "name": "Maple Leaf",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": {
+        "price": 1,
+        "slotMax": 100,
+        "quest": 1,
+        "tradeBlock": "1",
+        "timeLimited": 1
+      },
+      "description": "A bright red leaf that drifts down all over Maple World. They say the whole world is named after the tree these fall from."
+    },
+    {
+      "id": 4031135,
+      "name": "Deciphered Document",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "quest": 1 },
+      "description": "An envelope containing the deciphered document. Dark Lord must be waiting for this."
+    },
+    {
+      "id": 4031136,
+      "name": "Amended Ledger",
+      "category": "Etc",
+      "sub_category": "Etc",
+      "stats": { "price": 1, "slotMax": 1, "quest": 1 },
+      "description": "A bench by the subway, a pile of gear given away, and a note in handwriting that doesn't match the rest. The oldest part of the entry names the old man at the Ellinia library."
     },
     {
       "id": 4080000,
@@ -25374,6 +26928,422 @@
       "description": "A scroll required for transferring a pet's level. Bring this scroll to Mar the Fairy in Mar's Forest in Ellinia, and you can transfer a pet's level and closeness to another pet.\nDouble-click on the item for more information."
     },
     {
+      "id": 3000000,
+      "name": "Oak Window",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "An oak window with cute curtains. Can be placed in your home."
+    },
+    {
+      "id": 3000001,
+      "name": "Cherry Lattice Window",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A lattice window made of cherry wood. Can be placed in your home."
+    },
+    {
+      "id": 3000002,
+      "name": "Flower Bud Ceiling Light",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A bellflower-shaped ceiling light. Can be placed in your home and turned on or off by interacting nearby."
+    },
+    {
+      "id": 3000003,
+      "name": "Brass Candlestick",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A candlestick made of brass. Can be placed in your home and turned on or off by interacting nearby."
+    },
+    {
+      "id": 3000004,
+      "name": "Cherry Bookshelf",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A sturdy bookcase made of cherry wood. Can be placed in your home."
+    },
+    {
+      "id": 3000005,
+      "name": "Cherry Bed",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A bed made from cherry wood. Can be placed in your home and used to lie down by interacting nearby."
+    },
+    {
+      "id": 3000006,
+      "name": "Cherry Wardrobe",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A cherry wood wardrobe. Can be placed in your home and opened or closed by interacting nearby."
+    },
+    {
+      "id": 3000007,
+      "name": "Oak Bench",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "An oak bench. Interact nearby to sit down. Can be placed in your home and sat on by interacting nearby."
+    },
+    {
+      "id": 3000008,
+      "name": "Cherry Bench",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A cherry wood bench. Can be placed in your home and sat on by interacting nearby."
+    },
+    {
+      "id": 3000009,
+      "name": "Potted Sunflower",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A potted plant with three sunflowers. Can be placed in your home."
+    },
+    {
+      "id": 3000010,
+      "name": "Steel Milk Can",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A steel container for storing fresh milk. Can be placed in your home."
+    },
+    {
+      "id": 3000011,
+      "name": "Wooden Scrub Brush",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A wooden brush used to clean every corner of your home. Can be placed in your home."
+    },
+    {
+      "id": 3000012,
+      "name": "Rope-Wrapped Jug",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A rope-wrapped water bottle protected from breaking. Can be placed in your home."
+    },
+    {
+      "id": 3000013,
+      "name": "Corked Storage Jar",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A navy blue jar for storing various foods. Can be placed in your home."
+    },
+    {
+      "id": 3000014,
+      "name": "Assorted Pottery Set",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A colorful pottery set. Placeable in your home. Can be placed in your home."
+    },
+    {
+      "id": 3000015,
+      "name": "Oak Barrel",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A sturdy oak barrel for storing various items. Can be placed in your home."
+    },
+    {
+      "id": 3000016,
+      "name": "Henesys Table",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A table decorated with cloth representing Henesys. Can be placed in your home."
+    },
+    {
+      "id": 3000017,
+      "name": "Henesys Flag",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A flag decorated with a symbol representing Henesys. Can be placed in your home."
+    },
+    {
+      "id": 3000018,
+      "name": "Portrait of Helena",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A portrait of Helena. Wonder who painted it Can be placed in your home."
+    },
+    {
+      "id": 3000019,
+      "name": "Wheat Sheaves",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A bundle of gathered wheat. Can be placed in your home."
+    },
+    {
+      "id": 3000020,
+      "name": "Tomato Tree",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A tree bearing ripe tomatoes. Can be placed in your home."
+    },
+    {
+      "id": 3000021,
+      "name": "Strawberry Patch",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A bush bearing ripe strawberries. Can be placed in your home."
+    },
+    {
+      "id": 3000022,
+      "name": "Tall Sunflower",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A tall sunflower in full bloom. Can be placed in your home."
+    },
+    {
+      "id": 3000023,
+      "name": "Little Sunflower",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A short sunflower in full bloom. Can be placed in your home."
+    },
+    {
+      "id": 3000024,
+      "name": "Yellow Butterfly",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A yellow butterfly fluttering its yellow wings. Can be placed in your home."
+    },
+    {
+      "id": 3000025,
+      "name": "Small Garden Plot",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A small garden patch planted with crops. Can be placed in your home."
+    },
+    {
+      "id": 3000026,
+      "name": "Metal Window with Curtains",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A metal window with cute curtains. Can be placed in your home."
+    },
+    {
+      "id": 3000027,
+      "name": "Metal Window",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A metal window. Can be placed in your home."
+    },
+    {
+      "id": 3000028,
+      "name": "Metal Ceiling Light",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A metal ceiling light. Can be placed in your home and turned on or off by interacting nearby."
+    },
+    {
+      "id": 3000029,
+      "name": "Metal Wall Light",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A metal wall light. Can be placed in your home and turned on or off by interacting nearby."
+    },
+    {
+      "id": 3000030,
+      "name": "Metal Bookshelf",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A sturdy bookcase made of metal. Can be placed in your home."
+    },
+    {
+      "id": 3000031,
+      "name": "Rustic Bed",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A rustic bed made from wood. It has a unique pattern on the headboard. Can be placed in your home and sat on by interacting nearby."
+    },
+    {
+      "id": 3000032,
+      "name": "Metal Wardrobe",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A metal wardrobe. Can be placed in your home and opened or closed by interacting nearby."
+    },
+    {
+      "id": 3000033,
+      "name": "Wooden Bench",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A simple, yet comfortable wooden bench. Can be placed in your home and sat on by interacting nearby."
+    },
+    {
+      "id": 3000034,
+      "name": "Purple Barstool",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A leftover stool that once sat in storage in the Thieves' HQ. Can be placed in your home and sat on by interacting nearby."
+    },
+    {
+      "id": 3000035,
+      "name": "Metal Scale",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A metal scale used for measuring things. Can be placed in your home."
+    },
+    {
+      "id": 3000036,
+      "name": "Small Potted Vine",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A short vine that's been lovingly cared for. Can be placed in your home."
+    },
+    {
+      "id": 3000037,
+      "name": "Kerning City Street Sign",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A Kerning City Street Sign. Don't ask how we got this... Can be placed in your home."
+    },
+    {
+      "id": 3000038,
+      "name": "No Smoking Sign",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A sign that lets guests know they cannot smoke in the area. Can be placed in your home."
+    },
+    {
+      "id": 3000039,
+      "name": "Fire Extinguisher",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "In case of emergencies Fire magic. Can be placed in your home."
+    },
+    {
+      "id": 3000040,
+      "name": "Exit Sign",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A neon sign that helps guests locate the exit. Can be placed in your home."
+    },
+    {
+      "id": 3000041,
+      "name": "Wall Fan",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A fan that provides comfort during hot days. Can be placed in your home and turned on or off by interacting nearby."
+    },
+    {
+      "id": 3000042,
+      "name": "Kerning City Table",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A table decorated with cloth representing Kerning City. Can be placed in your home."
+    },
+    {
+      "id": 3000043,
+      "name": "Kerning City Flag",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A flag decorated with a symbol representing kerning City. Can be placed in your home."
+    },
+    {
+      "id": 3000044,
+      "name": "Portrait of the Dark Lord",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A portrait of the Dark Lord. Wonder who painted it Can be placed in your home."
+    },
+    {
+      "id": 3000045,
+      "name": "Fire Hydrant",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "In case of accidents involving Fire magic. Can be placed in your home."
+    },
+    {
+      "id": 3000046,
+      "name": "Metal Trash Can",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A tough yet reliable metal trash can. Can be placed in your home."
+    },
+    {
+      "id": 3000047,
+      "name": "Steel Drum",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A heavy steel drum used to store objects. Can be placed in your home."
+    },
+    {
+      "id": 3000048,
+      "name": "Brick Pile",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A pile of bricks. Can be placed in your home."
+    },
+    {
+      "id": 3000049,
+      "name": "No Biking Sign",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A sign warning off bikers. Can be placed in your home."
+    },
+    {
+      "id": 3000050,
+      "name": "Little Bug",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A small, unpleasant insect. Can be placed in your home."
+    },
+    {
+      "id": 3000051,
+      "name": "Small Barbed Wire Garden Plot",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100 },
+      "description": "A small garden patch planted with crops and protected by barbed wire. Can be placed in your home."
+    },
+    {
       "id": 3010000,
       "name": "The Green Relaxer",
       "category": "Setup",
@@ -25460,6 +27430,1214 @@
       "sub_category": "Install",
       "stats": { "price": 5000, "slotMax": 1, "tradeBlock": 1 },
       "description": "A sturdy wooden chair for Kerning City residents.\nRestores an additional 20 HP and 5 MP every 10 seconds while sitting."
+    },
+    {
+      "id": 3015000,
+      "name": "MapleStory Fest 2026 Staff Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "A chair commemorating MapleStory Fest 2026. Restores an additional 30 HP every 10 seconds."
+    },
+    {
+      "id": 3015001,
+      "name": "The First Trial",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "tradeBlock": 1, "notSale": 1 },
+      "description": "The first trial to face every adventurer. Restores an additional 30 HP every 10 seconds."
+    },
+    {
+      "id": 3015002,
+      "name": "Red Round Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Rumored to be crafted in Amoria, this special chair is also known as the Love Seat. Recover 20 HP and 20 MP every 10 seconds."
+    },
+    {
+      "id": 3015003,
+      "name": "White Seal Cushion",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 5000, "slotMax": 1 },
+      "description": "An adorable white cushion that resembles a seal. \nRestores HP 50 every \n10 seconds."
+    },
+    {
+      "id": 3015004,
+      "name": "Grey Seal Cushion",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 5000, "slotMax": 1 },
+      "description": "An adorable grey cushion that resembles a seal. \nRestores 60 HP every \n10 seconds."
+    },
+    {
+      "id": 3015005,
+      "name": "Gold Seal Cushion",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 5000, "slotMax": 1 },
+      "description": "An adorable gold cushion that resembles a seal. \nRestores 60 HP every \n10 seconds."
+    },
+    {
+      "id": 3015006,
+      "name": "Amorian Relaxer",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 500, "slotMax": 1, "notSale": 1 },
+      "description": "A chair crafted by Jacob. Recovers 75 HP every 10 seconds.\nCannot be traded or dropped."
+    },
+    {
+      "id": 3015007,
+      "name": "The Red Relaxer",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "A chair with magical properties crafted in Ellinia. Restores 35 MP per 10 Seconds while sitting."
+    },
+    {
+      "id": 3015008,
+      "name": "Pink Beach Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1 },
+      "description": "A chair straight from the relaxation experts in Florina Beach. Recover 20 HP every 10 seconds."
+    },
+    {
+      "id": 3015009,
+      "name": "Beach Chair(Red)",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1 },
+      "description": "Relax up with beach chair, to recover 50 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015010,
+      "name": "Beach Chair(Blue)",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1, "timeLimited": 1 },
+      "description": "When you sit in Beach Chair, 20 MP are recovered every 10 seconds."
+    },
+    {
+      "id": 3015011,
+      "name": "Palm Tree Beach Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A beach chair placed in the shades under the palm tree at Ariant. Sit on it to recover HP 40 and MP 20 every 10 seconds."
+    },
+    {
+      "id": 3015012,
+      "name": "Warrior Throne",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 400, "slotMax": 1, "notSale": 1 },
+      "description": "A powerful chair used often on the battlefield. Recovers 60 HP every 10 seconds.\nCannot be traded or dropped."
+    },
+    {
+      "id": 3015013,
+      "name": "Moon Star Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A light, stylish chair that seems to be sent from the heavens. Recover 30 HP and 30 MP every 10 seconds."
+    },
+    {
+      "id": 3015014,
+      "name": "Clear Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1 },
+      "description": "When you sit in this chair, 50 HP are recovered every 10 seconds."
+    },
+    {
+      "id": 3015015,
+      "name": "Kadomatsu",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A specially-made chair that's only available in Mushroom Shrine. Recover 60 MP every 10 seconds."
+    },
+    {
+      "id": 3015016,
+      "name": "Kotatsu",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Restores 30 HP and 30 MP every 10 seconds."
+    },
+    {
+      "id": 3015017,
+      "name": "Wooden Tub",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Relax and enjoy a bath in this spacious wooden tub. \nRestores 40 HP and 20 MP every 10 seconds."
+    },
+    {
+      "id": 3015018,
+      "name": "Pink Teddy Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Have a seat with an adorable wind-up plush! \nRestores 50 HP and 50 MP every 10 seconds."
+    },
+    {
+      "id": 3015019,
+      "name": "Soul Teddy Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1 },
+      "description": "Sit on this Soul Teddy chair to recover 50 HP every 10 seconds."
+    },
+    {
+      "id": 3015020,
+      "name": "Maple Tree Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1 },
+      "description": "A maple tree with a hanging swing. You can recover 50 HP  every 10 seconds."
+    },
+    {
+      "id": 3015021,
+      "name": "The Stirge Seat",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A chair hand-crafted by Stirgeman for aspiring superheroes! Recovers 50 HP and 50 MP every 10 seconds."
+    },
+    {
+      "id": 3015022,
+      "name": "Skull Throne",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A chair crafted within the Phantom Forest, complete with...ornaments...from unlucky travelers.\nRestores 50 HP and 50 MP every 10 seconds."
+    },
+    {
+      "id": 3015023,
+      "name": "Halloween Broomstick Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A speedy Halloween Broomstick Chair perfect for scaring up a little fun.\nRestores 50 HP every 10 seconds."
+    },
+    {
+      "id": 3015024,
+      "name": "Red Umbrella Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A chair with a big umbrella. Restores 30 HP and 30 MP every 10 seconds."
+    },
+    {
+      "id": 3015025,
+      "name": "Ice Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "A chair made out of Ice Queen's ice pieces. Sit on it to recover HP 40 and MP 30 per 10 seconds."
+    },
+    {
+      "id": 3015026,
+      "name": "Christmas Tree Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Restores 20 MP every 10 seconds."
+    },
+    {
+      "id": 3015027,
+      "name": "Igloo",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "An igloo made of solid ice, just like all the other proper igloos in the world. \nRestores 40 HP and 30 MP every 10 seconds."
+    },
+    {
+      "id": 3015028,
+      "name": "Hinakazari Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1 },
+      "description": "Better than sitting on the ground! Recovers 20 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015029,
+      "name": "Rabbit Sofa",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 100, "slotMax": 1, "timeLimited": 1 },
+      "description": "This fluffy, white rabbit chair is cute, cozy, and warm--the trifecta! \nRestores 50 HP and 50 MP every 10 seconds."
+    },
+    {
+      "id": 3015030,
+      "name": "Teddy Bear Bed",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 5000, "slotMax": 1 },
+      "description": "Relax in this cozy teddy bear bed to recover 50 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015031,
+      "name": "Mochi Ice Cream Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Relax in this mochi ice cream chair to recover 30 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015032,
+      "name": "Charge UP Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Sit and charge up! Recovers 50 HP in every 10 seconds."
+    },
+    {
+      "id": 3015033,
+      "name": "Bloody Rose",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "You will recover 50 HP every 10 seconds. You will experience the might of a conqueror after recovery."
+    },
+    {
+      "id": 3015034,
+      "name": "World's End",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "You will recover 50 HP every 10 seconds. Perhaps, as you recline, you will find the answer to many of life's questions."
+    },
+    {
+      "id": 3015035,
+      "name": "Greater Teru Bozu Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1 },
+      "description": "Sit in the shade of a large lotus leaf! A cute doll hangs off the edge. Restores 200 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015036,
+      "name": "Miwok Chief's Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "The chair in which the chiefs of the Miwok tribe sat. Sit in this chair, and receive the strength of the Miwok ancestors. \nRestores 65 MP every 10 seconds."
+    },
+    {
+      "id": 3015037,
+      "name": "Camping Tent",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Cool tent to relax in.\nRecovers 50 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015038,
+      "name": "Music Box",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "50 HP is restored every 10 seconds if you lean back on this music box."
+    },
+    {
+      "id": 3015039,
+      "name": "It's a Hoot! Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1 },
+      "description": "When you sit in It's a Hoot! Chair, 50 HP and 50 MP are recovered every 10 seconds."
+    },
+    {
+      "id": 3015040,
+      "name": "Chewing Panda Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A chair with an adorable yet lazy panda chewing a bamboo stick. You can recover 50 HP and 50 MP every 10 seconds.  "
+    },
+    {
+      "id": 3015041,
+      "name": "Fuzzy Kitty Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A chair with a fuzzy kitty rubbing its face on its body. You can recover 50 HP and 50 MP every 10 seconds.  "
+    },
+    {
+      "id": 3015042,
+      "name": "Olivia's Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "An eerie looking chair that resembles Olivia. Recovers 40 HP and 35 MP every 10 seconds"
+    },
+    {
+      "id": 3015043,
+      "name": "Roasted Relaxer",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Catch your breath and relax by sitting on this chair to recover HP+50/MP+30 every 10 seconds."
+    },
+    {
+      "id": 3015044,
+      "name": "Poor Ribbon Pig Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Why is this Ribbon Pig so sad Sit and comfort him to recover 50 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015045,
+      "name": "Stone Golem Hand Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Take a break by leaning on the Stone Golem Hand to recover 50 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015046,
+      "name": "Dragon Skull Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Take a break by leaning on the Dragon Skull Chair to recover 50 HP and MP every 10 seconds."
+    },
+    {
+      "id": 3015047,
+      "name": "TV Recliner",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A new chair to recline and relax in that's perfect for any time.\nRecovers 60 HP and 30 MP every 10 seconds."
+    },
+    {
+      "id": 3015048,
+      "name": "Cuddly Polar Bear",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Cuddle with the Polar Bear for some cozy, comfy rest. \nRestores 50 HP and 50 MP every 10 seconds."
+    },
+    {
+      "id": 3015049,
+      "name": "Christmas Box",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "A Christmas Box, Recovers HP 50 MP 50 every 10 seconds."
+    },
+    {
+      "id": 3015050,
+      "name": "Green Christmas Recharger Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Recovers 50 HP and 50 MP every 10 seconds. "
+    },
+    {
+      "id": 3015051,
+      "name": "Red Christmas Recharger Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Recovers 50 HP and 50 MP every 10 seconds. "
+    },
+    {
+      "id": 3015052,
+      "name": "Black Christmas Recharger Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1 },
+      "description": "Recovers 50 HP and 50 MP every 10 seconds. "
+    },
+    {
+      "id": 3015053,
+      "name": "Furnace Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Sit on this chair to feel the warmth from the furnace. You can recover 40 HP and 20 MP every 10 seconds."
+    },
+    {
+      "id": 3015054,
+      "name": "Polar Bear Chair",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1, "slotMax": 1, "notSale": 1, "timeLimited": 1 },
+      "description": "Snuggle up in this cozy polar bear chair to recover 40 HP and 20 MP every 10 seconds."
+    },
+    {
+      "id": 3020000,
+      "name": "Worn Wooden Chest",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 500, "tradeBlock": 1 },
+      "description": "An old wooden crate for storing items. Can be placed in your home and used for storage by interacting nearby."
+    },
+    {
+      "id": 3020001,
+      "name": "Reinforced Wooden Chest",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A sturdy wooden crate for storing items. Can be placed in your home and used for storage by interacting nearby."
+    },
+    {
+      "id": 3030000,
+      "name": "Anvil",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A sturdy anvil made of steel. Can be placed in your home and used for Smithing by interacting nearby."
+    },
+    {
+      "id": 3030001,
+      "name": "Weaponcrafting Station",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A workbench for crafting various weapons. Can be placed in your home and used for Weaponcrafting by interacting nearby."
+    },
+    {
+      "id": 3030002,
+      "name": "Sewing Machine",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A sewing machine for processing cloth. Can be placed in your home and used for Tailoring by interacting nearby."
+    },
+    {
+      "id": 3030003,
+      "name": "Woodworking Station",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A workbench for processing wood. Can be placed in your home and used for Woodcrafting by interacting nearby."
+    },
+    {
+      "id": 3030004,
+      "name": "Leatherworking Station",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A workbench for processing leather. Can be placed in your home and used for Leatherworking by interacting nearby. "
+    },
+    {
+      "id": 3030005,
+      "name": "Arcane Station",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A workbench for crafting various magical items. Can be placed in your home and used for Arcforge by interacting nearby. "
+    },
+    {
+      "id": 3040000,
+      "name": "Straw Training Dummy",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 1000, "tradeBlock": 1 },
+      "description": "A straw training dummy. Can be placed in your home and attacked freely."
+    },
+    {
+      "id": 3990000,
+      "name": "Red No. 1",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #1 to decorate the tree."
+    },
+    {
+      "id": 3990001,
+      "name": "Red No. 2",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #2 to decorate the tree."
+    },
+    {
+      "id": 3990002,
+      "name": "Red No. 3",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #3 to decorate the tree."
+    },
+    {
+      "id": 3990003,
+      "name": "Red No. 4",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #4 to decorate the tree."
+    },
+    {
+      "id": 3990004,
+      "name": "Red No. 5",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #5 to decorate the tree."
+    },
+    {
+      "id": 3990005,
+      "name": "Red No. 6",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #6 to decorate the tree."
+    },
+    {
+      "id": 3990006,
+      "name": "Red No. 7",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #7 to decorate the tree."
+    },
+    {
+      "id": 3990007,
+      "name": "Red No. 8",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #8 to decorate the tree."
+    },
+    {
+      "id": 3990008,
+      "name": "Red No. 9",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #9 to decorate the tree."
+    },
+    {
+      "id": 3990009,
+      "name": "Red No. 0",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red #0 to decorate the tree."
+    },
+    {
+      "id": 3990010,
+      "name": "Green No. 1",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #1 to decorate the tree."
+    },
+    {
+      "id": 3990011,
+      "name": "Green No. 2",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #2 to decorate the tree."
+    },
+    {
+      "id": 3990012,
+      "name": "Green No. 3",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #3 to decorate the tree."
+    },
+    {
+      "id": 3990013,
+      "name": "Green No. 4",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #4 to decorate the tree."
+    },
+    {
+      "id": 3990014,
+      "name": "Green No. 5",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #5 to decorate the tree."
+    },
+    {
+      "id": 3990015,
+      "name": "Green No. 6",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #6 to decorate the tree."
+    },
+    {
+      "id": 3990016,
+      "name": "Green No. 7",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #7 to decorate the tree."
+    },
+    {
+      "id": 3990017,
+      "name": "Green No. 8",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #8 to decorate the tree."
+    },
+    {
+      "id": 3990018,
+      "name": "Green No. 9",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #9 to decorate the tree."
+    },
+    {
+      "id": 3990019,
+      "name": "Green No. 0",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green #0 to decorate the tree."
+    },
+    {
+      "id": 3990020,
+      "name": "Red \" + \"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \" + \" to decorate the tree."
+    },
+    {
+      "id": 3990021,
+      "name": "Red \" - \"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \" - \" to decorate the tree."
+    },
+    {
+      "id": 3990022,
+      "name": "Green \" + \"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \" + \" to decorate the tree."
+    },
+    {
+      "id": 3990023,
+      "name": "Green \" - \"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \" - \" to decorate the tree."
+    },
+    {
+      "id": 3991000,
+      "name": "Red \"A\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"A\" to decorate the tree."
+    },
+    {
+      "id": 3991001,
+      "name": "Red \"C\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"C\" to decorate the tree."
+    },
+    {
+      "id": 3991002,
+      "name": "Red \"E\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"E\" to decorate the tree."
+    },
+    {
+      "id": 3991003,
+      "name": "Red \"H\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"H\" to decorate the tree."
+    },
+    {
+      "id": 3991004,
+      "name": "Red \"I\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"I\" to decorate the tree."
+    },
+    {
+      "id": 3991005,
+      "name": "Red \"M\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"M\" to decorate the tree."
+    },
+    {
+      "id": 3991006,
+      "name": "Red \"P\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"P\" to decorate the tree."
+    },
+    {
+      "id": 3991007,
+      "name": "Red \"R\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"R\" to decorate the tree."
+    },
+    {
+      "id": 3991008,
+      "name": "Red \"S\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"S\" to decorate the tree."
+    },
+    {
+      "id": 3991009,
+      "name": "Red \"T\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"T\" to decorate the tree."
+    },
+    {
+      "id": 3991010,
+      "name": "Red \"X\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"X\" to decorate the tree."
+    },
+    {
+      "id": 3991011,
+      "name": "Red \"Y\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A red \"Y\" to decorate the tree."
+    },
+    {
+      "id": 3991012,
+      "name": "Green \"A\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"A\" to decorate the tree."
+    },
+    {
+      "id": 3991013,
+      "name": "Green \"C\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"C\" to decorate the tree."
+    },
+    {
+      "id": 3991014,
+      "name": "Green \"E\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"E\" to decorate the tree."
+    },
+    {
+      "id": 3991015,
+      "name": "Green \"H\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"H\" to decorate the tree."
+    },
+    {
+      "id": 3991016,
+      "name": "Green \"I\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"I\" to decorate the tree."
+    },
+    {
+      "id": 3991017,
+      "name": "Green \"M\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"M\" to decorate the tree."
+    },
+    {
+      "id": 3991018,
+      "name": "Green \"P\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"P\" to decorate the tree."
+    },
+    {
+      "id": 3991019,
+      "name": "Green \"R\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"R\" to decorate the tree."
+    },
+    {
+      "id": 3991020,
+      "name": "Green \"S\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"S\" to decorate the tree."
+    },
+    {
+      "id": 3991021,
+      "name": "Green \"T\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"T\" to decorate the tree."
+    },
+    {
+      "id": 3991022,
+      "name": "Green \"X\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"X\" to decorate the tree."
+    },
+    {
+      "id": 3991023,
+      "name": "Green \"Y\"",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 50, "slotMax": 100 },
+      "description": "A green \"Y\" to decorate the tree."
+    },
+    {
+      "id": 3992000,
+      "name": "Santa Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A santa ornament for the tree."
+    },
+    {
+      "id": 3992001,
+      "name": "Rudolph Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A Rudolph ornament for the tree."
+    },
+    {
+      "id": 3992002,
+      "name": "Mushroom Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A mushroom ornament for the tree."
+    },
+    {
+      "id": 3992003,
+      "name": "Pig Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A pig ornament for the tree."
+    },
+    {
+      "id": 3992004,
+      "name": "Slime Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A slime ornament for the tree."
+    },
+    {
+      "id": 3992005,
+      "name": "Red Gift-Box Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red gift-box ornament for the tree."
+    },
+    {
+      "id": 3992006,
+      "name": "Blue Gift-Box Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A blue gift-box ornament for the tree."
+    },
+    {
+      "id": 3992007,
+      "name": "Yellow Gift-Box Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A yellow gift-box ornament for the tree."
+    },
+    {
+      "id": 3992008,
+      "name": "Red Star Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red star miniature bulb for the tree."
+    },
+    {
+      "id": 3992009,
+      "name": "Blue Star Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A blue star miniature bulb for the tree."
+    },
+    {
+      "id": 3992010,
+      "name": "Green Star Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A green star miniature bulb for the tree."
+    },
+    {
+      "id": 3992011,
+      "name": "Pink Star Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A pink star miniature bulb for the tree."
+    },
+    {
+      "id": 3992012,
+      "name": "Orange Star Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "An orange star miniature bulb for the tree."
+    },
+    {
+      "id": 3992013,
+      "name": "Red Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red miniature bulb for the tree."
+    },
+    {
+      "id": 3992014,
+      "name": "Blue Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A blue miniature bulb for the tree."
+    },
+    {
+      "id": 3992015,
+      "name": "Yellow Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A yellow miniature bulb for the tree."
+    },
+    {
+      "id": 3992016,
+      "name": "Green Miniature Bulb",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A green miniature bulb for the tree."
+    },
+    {
+      "id": 3992017,
+      "name": "Red Ball Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red ball ornament for the tree."
+    },
+    {
+      "id": 3992018,
+      "name": "Blue Ball Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A blue ball ornament for the tree."
+    },
+    {
+      "id": 3992019,
+      "name": "Yellow Ball Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A yellow ball ornament for the tree."
+    },
+    {
+      "id": 3992020,
+      "name": "Red Sock",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red sock for the tree."
+    },
+    {
+      "id": 3992021,
+      "name": "The gingerbread man",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "The gingerbread man for the tree."
+    },
+    {
+      "id": 3992022,
+      "name": "The gingerbread woman",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "The gingerbread lady for the tree."
+    },
+    {
+      "id": 3992023,
+      "name": "Candy Cane",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A candy cane for the tree."
+    },
+    {
+      "id": 3992024,
+      "name": "Circular Tree Ornament",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 300, "slotMax": 100 },
+      "description": "A circular ornament for the tree."
+    },
+    {
+      "id": 3992025,
+      "name": "King-sized Star",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 300, "slotMax": 100 },
+      "description": "A king-sized star for the tree."
+    },
+    {
+      "id": 3992026,
+      "name": "Christmas wreath",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 300, "slotMax": 100 },
+      "description": "A christmas wreath for the tree."
+    },
+    {
+      "id": 3992027,
+      "name": "Red Candle",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red candle for the tree."
+    },
+    {
+      "id": 3992028,
+      "name": "Blue Candle",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A blue candle for the tree."
+    },
+    {
+      "id": 3992029,
+      "name": "Yellow Candle",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A yellow candle for the tree."
+    },
+    {
+      "id": 3992030,
+      "name": "Red Candy Canes",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "Red candy canes for the tree."
+    },
+    {
+      "id": 3992031,
+      "name": "Blue Candy Canes",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "Blue candy canes for the tree."
+    },
+    {
+      "id": 3992032,
+      "name": "Yellow Candy Canes",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "Yellow candy canes for the tree."
+    },
+    {
+      "id": 3992033,
+      "name": "Red Fruit Leaves",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "Red fruit leaves for the tree."
+    },
+    {
+      "id": 3992034,
+      "name": "Yellow Fruit Leaves",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "Yellow fruit leaves for the tree."
+    },
+    {
+      "id": 3992035,
+      "name": "Red-Ribboned Giftbox",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A red-ribboned giftbox for the tree."
+    },
+    {
+      "id": 3992036,
+      "name": "Blue-Ribboned Giftbox",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A blue-ribboned giftbox for the tree."
+    },
+    {
+      "id": 3992037,
+      "name": "Yellow-Ribboned Giftbox",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A yellow-ribboned giftbox for the tree."
+    },
+    {
+      "id": 3992038,
+      "name": "Ruldolph Santa Boots",
+      "category": "Setup",
+      "sub_category": "Install",
+      "stats": { "price": 75, "slotMax": 100 },
+      "description": "A Rudolph Santa Boots for the tree."
     },
     {
       "id": 3994000,
@@ -26739,7 +29917,7 @@
       "equip_slot": "1H Sword",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on one-handed swords.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on one-handed swords.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2043003,
@@ -26747,7 +29925,7 @@
       "equip_slot": "1H Sword",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on one-handed swords.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on one-handed swords.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2043100,
@@ -26771,7 +29949,7 @@
       "equip_slot": "1H Axe",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on one-handed axes.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on one-handed axes.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2043103,
@@ -26779,7 +29957,7 @@
       "equip_slot": "1H Axe",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on one-handed axes.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on one-handed axes.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2043200,
@@ -26803,7 +29981,7 @@
       "equip_slot": "1H Blunt",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on one-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on one-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2043203,
@@ -26811,7 +29989,7 @@
       "equip_slot": "1H Blunt",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on one-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on one-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2043300,
@@ -26835,7 +30013,7 @@
       "equip_slot": "Dagger",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on daggers.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on daggers.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2043303,
@@ -26843,7 +30021,7 @@
       "equip_slot": "Dagger",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on daggers.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on daggers.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2043700,
@@ -26867,7 +30045,7 @@
       "equip_slot": "Wand",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Magic Attack on wands.\nSuccess rate: 10%, Magic Attack +6"
+      "description": "Improves Magic Attack on wands.\nSuccess rate: 10%, Magic Attack +8"
     },
     {
       "id": 2043703,
@@ -26875,7 +30053,7 @@
       "equip_slot": "Wand",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Magic Attack on wands.\nSuccess rate: 10%, Magic Attack +8\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Magic Attack on wands.\nSuccess rate: 10%, Magic Attack +10\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2043800,
@@ -26899,7 +30077,7 @@
       "equip_slot": "Staff",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Magic Attack on staves.\nSuccess rate: 10%, Magic Attack +6"
+      "description": "Improves Magic Attack on staves.\nSuccess rate: 10%, Magic Attack +8"
     },
     {
       "id": 2043803,
@@ -26907,7 +30085,7 @@
       "equip_slot": "Staff",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Magic Attack on staves.\nSuccess rate: 10%, Magic Attack +8\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Magic Attack on staves.\nSuccess rate: 10%, Magic Attack +10\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044000,
@@ -26931,7 +30109,7 @@
       "equip_slot": "2H Sword",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on two-handed swords.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on two-handed swords.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044003,
@@ -26939,7 +30117,7 @@
       "equip_slot": "2H Sword",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on two-handed swords.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on two-handed swords.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044100,
@@ -26963,7 +30141,7 @@
       "equip_slot": "2H Axe",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on two-handed axes.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on two-handed axes.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044103,
@@ -26971,7 +30149,7 @@
       "equip_slot": "2H Axe",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on two-handed axes.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on two-handed axes.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044200,
@@ -26995,7 +30173,7 @@
       "equip_slot": "2H Blunt",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on two-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on two-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044203,
@@ -27003,7 +30181,7 @@
       "equip_slot": "2H Blunt",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on two-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on two-handed blunt weapons.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044300,
@@ -27027,7 +30205,7 @@
       "equip_slot": "Spear",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on spears.\nSuccess rate:10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on spears.\nSuccess rate:10%, Weapon Attack +4"
     },
     {
       "id": 2044303,
@@ -27035,7 +30213,7 @@
       "equip_slot": "Spear",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on spears.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on spears.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044400,
@@ -27059,7 +30237,7 @@
       "equip_slot": "Polearm",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on polearms.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on polearms.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044403,
@@ -27067,7 +30245,7 @@
       "equip_slot": "Polearm",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on polearms.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on polearms.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044500,
@@ -27091,7 +30269,7 @@
       "equip_slot": "Bow",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on bows.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on bows.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044503,
@@ -27099,7 +30277,7 @@
       "equip_slot": "Bow",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on bows.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on bows.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044600,
@@ -27123,7 +30301,7 @@
       "equip_slot": "Crossbow",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on crossbows.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on crossbows.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044603,
@@ -27131,7 +30309,7 @@
       "equip_slot": "Crossbow",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on crossbows.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on crossbows.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2044700,
@@ -27155,7 +30333,7 @@
       "equip_slot": "Claw",
       "stat_type": "Attack",
       "tier": "Greater",
-      "description": "Improves Weapon Attack on claws.\nSuccess rate: 10%, Weapon Attack +3"
+      "description": "Improves Weapon Attack on claws.\nSuccess rate: 10%, Weapon Attack +4"
     },
     {
       "id": 2044703,
@@ -27163,7 +30341,7 @@
       "equip_slot": "Claw",
       "stat_type": "Attack",
       "tier": "Chaos",
-      "description": "Improves Weapon Attack on claws.\nSuccess rate: 10%, Weapon Attack +4\nUpon failure, the item has a 50% chance to be destroyed."
+      "description": "Improves Weapon Attack on claws.\nSuccess rate: 10%, Weapon Attack +5\nUpon failure, the item has a 50% chance to be destroyed."
     },
     {
       "id": 2048000,
@@ -27230,13 +30408,13 @@
       "description": "Improves Jump on pet equip.\nSuccess rate: 10%, Jump +4\nUpon failure, the item has a 50% chance to be destroyed."
     }
   ],
-  "item_total": 1703,
+  "item_total": 2012,
   "scroll_total": 208,
   "counts": {
-    "equipment": 1199,
-    "consumables": 123,
-    "etc": 358,
-    "setup": 23,
+    "equipment": 1203,
+    "consumables": 198,
+    "etc": 385,
+    "setup": 226,
     "scrolls": 208
   },
   "equipment_meta": {

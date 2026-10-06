@@ -88,10 +88,11 @@ async function main() {
 
     // Do not add quest items or items that cannot be sold or are trade blocked
     const isQuestItem = rawStats.quest;
+    const isPrequestItem = rawStats.pquest;
     const cannotBeSold = rawStats.notSale;
     const isTradeBlocked = rawStats.tradeBlock;
 
-    if (isQuestItem || cannotBeSold || isTradeBlocked) {
+    if (isQuestItem || isPrequestItem || cannotBeSold || isTradeBlocked) {
       continue;
     }
 
