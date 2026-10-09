@@ -52,7 +52,7 @@ router.get("/discord/callback", async (req, res) => {
 
     const avatarUrl = user.avatar
       ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png?size=256`
-      : null;
+      : `https://cdn.discordapp.com/embed/avatars/0.png`;
 
     const dbUser = await prisma.user.upsert({
       where: {

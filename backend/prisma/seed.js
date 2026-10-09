@@ -232,11 +232,11 @@ async function main() {
   // 4. Seed the cash data
   for (const cashItemCategory of cashItemData.categories) {
     for (const cashItem of cashItemCategory.items) {
-      const canBeSold = cashItem.on_sale;
+      // const canBeSold = cashItem.on_sale;
 
-      if (!canBeSold) {
-        continue;
-      }
+      // if (!canBeSold) {
+      //   continue;
+      // }
 
       const newCash = await prisma.item.upsert({
         where: {
